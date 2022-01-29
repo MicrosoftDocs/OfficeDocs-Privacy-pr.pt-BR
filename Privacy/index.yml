@@ -1,0 +1,68 @@
+### YamlMime:Hub
+title: Privacidade da Microsoft
+summary: Documentação e recursos da Microsoft que você precisa para começar a usar a privacidade para sua empresa ou organização.
+brand: m365
+metadata:
+  title: Privacidade da Microsoft
+  description: Documentação e recursos da Microsoft que você precisa para começar a usar a privacidade para sua empresa ou organização.
+  services: service
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection:
+    - M365-security-compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/15/2021
+  titleSuffix: Microsoft Privacy
+highlightedContent:
+  items:
+    - title: Saiba como a Microsoft protege a privacidade do cliente
+      itemType: learn
+      url: 'https://privacy.microsoft.com/'
+    - title: Saiba mais sobre padrões de privacidade do Microsoft 365
+      itemType: learn
+      url: /learn/modules/audit-privacy/
+    - title: 'Saiba mais sobre proteção de dados, regulamentação de privacidade e processamento de dados'
+      itemType: learn
+      url: /learn/modules/intro-to-data-protection-privacy/
+    - title: Introdução à privacidade nos serviços de nuvem da Microsoft
+      itemType: get-started
+      url: 'https://www.microsoft.com/trust-center/privacy'
+productDirectory:
+  title: Microsoft Priva
+  summary: Comece a usar o Priva para ajudar sua organização a proteger dados pessoais no Microsoft 365 e criar um local de trabalho resiliente à privacidade.
+  items:
+    - title: Saiba mais sobre a Priva
+      imageSrc: /office/media/icons/task-list-planning-blue.svg
+      summary: O Priva oferece ferramentas de organizações para identificar e proteger proativamente contra riscos de privacidade e ajudá-lo a gerenciar o armazenamento e a movimentação de dados pessoais.
+      url: /privacy/priva/priva-overview
+    - title: Introdução ao Priva
+      imageSrc: /office/media/icons/list-123-blue.svg
+      summary: 'Se você estiver pronto para começar a usar o Microsoft Priva para obter assistência na identificação e redução de riscos de privacidade, siga estas etapas para configurar os pré-requisitos e começar a explorar os insights de privacidade.'
+      url: /privacy/priva/priva-setup
+    - title: Gerenciar riscos com o Gerenciamento de Riscos de Privacidade
+      imageSrc: /office/media/icons/tasks-blue.svg
+      summary: O Priva oferece a capacidade de configurar políticas que identifiquem riscos de privacidade em seu ambiente Microsoft 365 e habilitem a correção fácil.
+      url: /privacy/priva/risk-management-policies
+    - title: Gerenciar solicitações de direitos de entidade
+      imageSrc: /office/media/icons/process-flow-blue.svg
+      summary: 'As Solicitações de Direitos de Entidade Desaprimoradas podem ajudá-lo a lidar com solicitações de dados pessoais fornecendo fluxo de trabalho, automação e colaboração.'
+      url: /privacy/priva/subject-rights-requests
+additionalContent:
+  sections:
+    - title: Saiba mais sobre privacidade no serviços Microsoft
+      summary: 'Se você é novo em privacidade e quer saber por onde começar com serviços Microsoft, esta seção fornece links para as principais áreas de privacidade de cada serviço.'
+      items:
+        - title: Microsoft Azure
+          summary: Saiba como a privacidade e a confidencialidade dos dados armazenados e processados nos serviços do Azure são protegidos e usados apenas de maneira consistente com suas expectativas.
+          url: 'https://azure.microsoft.com/overview/trusted-cloud/privacy/'
+        - title: Dynamics 365
+          summary: 'O Microsoft Dynamics 365 está comprometido em ajudar os clientes a atender aos requisitos de privacidade, dados pessoais e Regulamento Geral sobre a Proteção de Dados (GDPR).'
+          url: /dynamics365/get-started/gdpr/
+        - title: Microsoft 365 Apps para empresas
+          summary: A Microsoft está comprometida em fornecer as informações e os controles necessários para fazer escolhas sobre como seus dados são coletados e usados quando você está usando o Microsoft 365 Apps para Grandes Empresas.
+          url: /deployoffice/privacy/overview-privacy-controls
+        - title: Microsoft Windows
+          summary: Saiba como atender aos requisitos Regulamento Geral sobre a Proteção de Dados (GDPR) exibindo e configurando dados de diagnóstico do Windows em sua organização.
+          url: /windows/privacy/
