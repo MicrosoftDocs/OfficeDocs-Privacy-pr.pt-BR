@@ -1,0 +1,38 @@
+- name: Saiba mais sobre o Microsoft Priva
+  href: priva-overview.md
+- name: Saiba mais sobre a avaliação gratuita de Priva
+  href: priva-trial.md
+- name: Introdução ao Priva
+  href: priva-setup.md
+- name: Definir permissões e funções no Priva
+  href: priva-permissions.md
+- name: Definir configurações do Priva
+  href: priva-settings.md
+- name: Localizar e visualizar dados pessoais no Priva
+  href: priva-data-profile.md
+- name: Gerenciamento de Riscos de Privacidade
+  items:
+    - name: Saiba mais sobre o Gerenciamento de Riscos de Privacidade
+      href: risk-management.md
+    - name: Criar políticas
+      href: risk-management-policies.md
+    - name: Gerenciar políticas
+      href: risk-management-policies-manage.md
+    - name: Investigar e corrigir alertas
+      href: risk-management-alerts.md
+    - name: Enviar notificações do usuário
+      href: risk-management-notifications.md
+- name: Solicitações de Direitos da Entidade
+  items:
+    - name: Saiba mais sobre solicitações de direitos de entidade
+      href: subject-rights-requests.md
+    - name: Criar solicitações
+      href: subject-rights-requests-create.md
+    - name: Configurar a correspondência de dados
+      href: subject-rights-requests-data-match.md
+    - name: Examinar dados e colaborar
+      href: subject-rights-requests-data-review.md
+    - name: Obter relatórios e atender solicitações
+      href: subject-rights-requests-reports.md
+    - name: Automatizar tarefas
+      href: subject-rights-requests-automate.md
