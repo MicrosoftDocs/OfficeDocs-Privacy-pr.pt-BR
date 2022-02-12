@@ -1,5 +1,5 @@
 ---
-title: Configurar configurações priva
+title: Definir configurações do Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as opções de configurações globais do Microsoft Priva.
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248828"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542819"
 ---
-# <a name="configure-priva-settings"></a>Configurar configurações priva
+# <a name="configure-priva-settings"></a>Definir configurações do Priva
 
 Você pode gerenciar as configurações do Microsoft Priva selecionando o ícone de engrenagem no canto superior direito da tela. As opções aqui permitem definir preferências de alto nível e personalizar propriedades principais. Esta página fornece uma visão geral das principais Configurações categorias.
 
@@ -46,7 +46,7 @@ Use esta seção para carregar esquemas de dados que descrevem atributos de seus
 
 ## <a name="data-retention-periods"></a>Períodos de retenção de dados
 
-Essa configuração está relacionada a Solicitações de Direitos de Assunto Priva. Ele permite controlar sua preferência por quanto tempo deseja reter dados coletados e relatórios gerados após o fechamento da solicitação. Isso pode ser definido como 30 ou 90 dias. Verifique se esses períodos de retenção de dados estão em conformidade com suas políticas e obrigações legais. Para saber mais sobre solicitações de direitos de assunto, [consulte Learn about Priva Subject Rights Requests](subject-rights-requests.md).
+Essa configuração está relacionada a Solicitações de Direitos de Assunto Priva. Ele permite controlar sua preferência por quanto tempo deseja reter dados coletados e relatórios gerados após o fechamento da solicitação. Isso pode ser definido como 30 ou 90 dias e se aplica a todas as solicitações de direitos de assunto que você criar. Recomendamos verificar se os períodos de retenção de dados estão em conformidade com as políticas e obrigações legais da sua organização. Saiba mais sobre como [definir a retenção de dados para solicitações de direitos de assunto](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Marcas de revisão de dados
 

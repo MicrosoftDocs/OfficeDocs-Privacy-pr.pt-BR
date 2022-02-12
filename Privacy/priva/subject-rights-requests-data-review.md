@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como revisar os dados de solicitação de direitos de assunto coletados pelo Microsoft Priva e colaborar na conclusão da solicitação.
-ms.openlocfilehash: cac4064a1e0dc2860d061748793a91c0b86e0896
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248873"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542839"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar dados para uma solicitação de direitos de assunto
 
@@ -46,12 +46,31 @@ As solicitações de direitos de assunto passam por vários estágios. Alguns pr
 
 Como as solicitações podem precisar ser trabalhadas ao longo do tempo ou por vários colaboradores, Priva fornece atualizações contínuas sobre o status e orientações sobre as próximas etapas a serem tomadas. Essas atualizações podem ser exibidas na página de visão geral da solicitação de direitos de assunto.
 
-1. **Estimativa de** dados: depois que uma solicitação é criada, Priva identifica itens que incluem possíveis combinações com seu assunto de dados e faz anotações de seus locais no Microsoft 365. Quando a estimativa de dados for feita, você avançará automaticamente para recuperar **dados, a** menos que haja erros ou sua solicitação esteja definida para pausar aqui para revisão do administrador.
-   - Sua solicitação pode ser definida para exigir revisão de administrador neste estágio. Se o administrador determinar que os resultados iniciais da consulta de pesquisa parecem satisfatórios, você pode continuar a recuperar dados. Se quiser fazer alterações antes de prosseguir, você pode optar por editar sua consulta de pesquisa primeiro. Consulte a Etapa 2 para obter detalhes. Você não poderá editar sua consulta de pesquisa depois de iniciar o estágio de recuperação de dados.
-   - Se a consulta de pesquisa retornar uma estimativa de dados grande, o que significa que ela está acima do limite recomendado de Priva para tamanho de arquivo ou contagem, você pode tentar revisar sua pesquisa para refinar seu escopo. Observe que os arquivos associados a um item correspondente (por exemplo, anexos de arquivo em um email) podem contar para o total. As estimativas de dados que excedam o máximo de estimativa de dados grandes exigirão que uma revisão de pesquisa prossiga.
-1. **Recuperar dados**: este estágio indica que Priva está em processo de recuperação de seus dados. Depois de concluído, ele avançará automaticamente para **revisar dados**.
-1. **Revisar dados**: neste estágio, seus colaboradores devem revisar as descobertas na guia  Dados coletados e executar todas as tarefas aplicáveis, como redação, aplicação de marcas e a adição de anotações. Quando terminar a revisão, selecione **Concluir revisão**.
-1. **Gerar relatórios**: seus relatórios estão sendo gerados neste estágio. Quando concluídas, elas podem ser encontradas na **guia Relatórios** . Seus arquivos concluídos podem ser exportados para revisão final e entrega para o assunto de dados que fez a solicitação.
+#### <a name="data-estimate"></a>Estimativa de dados
+Depois de criar uma solicitação, Priva imediatamente começa a procurar possíveis combinações com o assunto de dados em seu Microsoft 365 ambiente. Depois de identificarmos todos os itens que acreditamos corresponder aos seus critérios, você verá a estimativa no cartão de  resumo de estimativa de dados na página Visão geral **da** solicitação. A quantidade de dados no escopo da pesquisa afetará o tempo que levará para concluir a estimativa.
+
+Sua solicitação passará automaticamente para o próximo estágio de recuperação de dados, no qual todos os itens de conteúdo são coletados juntos para que seu stakeholder possa colaborar na revisão de dados. No entanto, em algumas instâncias, vamos pausar a estimativa de dados antes de ir para recuperação e notificá-lo das próximas etapas a serem seguidas antes de continuar.
+
+Você também pode optar por pausar automaticamente no estágio de estimativa de dados quando criar uma solicitação de direitos de assunto pela primeira vez. Durante o processo de criação, selecione **a opção Obter uma primeira** estimativa durante a **etapa De configurações de** Pesquisa. Revise detalhes sobre a [etapa de configurações de pesquisa](subject-rights-requests-create.md#define-search-settings).
+
+#### <a name="pause-in-data-estimate-for-large-search-results"></a>Pausar na estimativa de dados para grandes resultados de pesquisa
+
+Priva notará se sua estimativa de dados for projetada para retornar uma grande quantidade de itens a serem revisados (mais de 10 mil itens). A estimativa pausa para que você possa visualizar os resultados e decidir se editará [](subject-rights-requests-create.md#refine-your-search) a consulta de pesquisa para direcionar locais ou condições mais específicas ou continuar a recuperar os itens identificados.  Mostraremos na tela o número de itens e o volume de dados que corresponderão à sua pesquisa. Você terá uma ou ambas as opções a seguir em uma barra de mensagens na parte superior da tela:
+
+- Um **botão Editar consulta de** pesquisa o levará diretamente às configurações de pesquisa da solicitação para definir parâmetros mais estritos e gerar uma nova estimativa.
+- Desde que sua consulta de pesquisa não seja mais de 300 mil itens, você também verá uma opção para **Recuperar dados**. Isso permite que você escolha não editar sua pesquisa e continuar coletando os dados.
+
+#### <a name="retrieve-data"></a>Recuperar dados
+O estágio de recuperação de dados é quando todos os arquivos, emails, chats, imagens e outros itens de conteúdo que contêm os dados pessoais do sujeito de dados são recuperados e colocados juntos em um contêiner de armazenamento de blob do Azure para revisão. A recuperação de dados pode demorar alguns minutos ou significativamente mais, dependendo do volume de dados. Quando esse estágio for concluído, a solicitação será automaticamente deslocada para o próximo estágio dos **dados de Revisão**.
+
+#### <a name="review-data"></a>Revisar dados
+ Neste estágio, seus colaboradores devem revisar as descobertas na guia  Dados coletados e executar todas as tarefas aplicáveis, como redação, aplicação de marcas e a adição de anotações. Quando terminar a revisão, selecione **Concluir revisão**.
+
+#### <a name="generate-reports"></a>Gerar relatórios
+Seus relatórios estão sendo gerados neste estágio. Quando concluídas, elas podem ser encontradas na **guia Relatórios** . Seus arquivos concluídos podem ser exportados para revisão final e entrega para o assunto de dados que fez a solicitação.
+
+#### <a name="close-the-request"></a>Fechar a solicitação
+Uma solicitação fechada indica que todo o trabalho foi concluído para atender a essa solicitação de direitos de assunto. Todos os dados coletados e relatórios serão mantidos de acordo com suas [configurações de retenção de dados](priva-settings.md#data-retention-periods).
 
 ## <a name="step-2-optional-view-and-edit-search-queries"></a>Etapa 2 (opcional): Exibir e editar consultas de pesquisa
 
@@ -59,7 +78,7 @@ Para ver informações detalhadas sobre a pesquisa de dados por trás de uma sol
 
 Você tem a opção aqui para **Visualizar resultados de** pesquisa para ver qual tipo de conteúdo será retornado para essa consulta. Se você quiser alterar as propriedades dessa pesquisa e ainda não iniciou a fase Recuperar Dados, pode usar a opção **Editar consulta de** pesquisa.
 
-O assistente de consulta de pesquisa de edição oferece a capacidade de alterar ou adicionar propriedades para a identificação do assunto de dados, seus filtros e condições de pesquisa e os locais nos quais procurar dados (incluindo Exchange, SharePoint, OneDrive e/ou Teams). Use essas opções para alcançar o nível de especificidade desejado. Você pode revisar a versão final da nova consulta antes de atingir **Salvar**.
+O processo de consulta de pesquisa de edição permite alterar ou adicionar propriedades para a identificação do assunto de dados, seus filtros e condições de pesquisa e os locais nos quais procurar dados (incluindo Exchange, SharePoint, OneDrive e/ou Teams). Use essas opções para alcançar o nível de especificidade desejado. Você pode revisar a versão final da nova consulta antes de atingir **Salvar**.
 
 Quando você terminar de editar a consulta de pesquisa, uma nova pesquisa será executado para substituir os resultados da pesquisa anterior. Isso redefine seu status na seção **Progresso** para a primeira etapa, **Estimativa de dados**. A nova pesquisa pode levar até 60 minutos para ser concluída. Depois de terminar, você verá os resultados atualizados na página de detalhes da solicitação.
 
@@ -86,7 +105,7 @@ Você também pode usar a opção **Compartilhar** na parte superior direita den
 
 ## <a name="step-4-close-the-request"></a>Etapa 4: Fechar a solicitação
 
-Quando você tiver executado todas as ações necessárias para resolver sua solicitação de direitos de assunto, selecione **Fechar a solicitação**. Isso cria o relatório final, que será criptografado e disponibilizado na **guia Relatórios**. A conclusão pode demorar um pouco, dependendo do número de arquivos na solicitação.
+Quando você tiver executado todas as ações necessárias para resolver sua solicitação de direitos de assunto, selecione **Fechar a solicitação**. Isso cria o relatório final, que pode ser encontrado na **guia Relatórios**. A conclusão pode demorar um pouco, dependendo do número de arquivos na solicitação.
 
 ## <a name="next-steps"></a>Próximas etapas
 Para saber mais sobre como trabalhar com relatórios e concluir solicitações de direitos de assunto, consulte [Gerar relatórios e atender a uma solicitação de direitos de assunto](subject-rights-requests-reports.md).

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como gerenciar os pacotes de dados criados pelo Microsoft Priva para solicitações de direitos de assunto e atender à solicitação ao assunto de dados.
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248874"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542829"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Gerar relatórios e atender a uma solicitação de direitos de assunto
 
@@ -56,7 +56,13 @@ Para saber mais, confira [Usar a API de solicitação Graph direitos de assunto 
 
 ## <a name="manage-data-retention"></a>Gerenciar retenção de dados
 
-Relatórios gerados por meio dessa ferramenta e dados associados, como arquivos anotados salvos no Azure, são armazenados por um período de tempo especificado. Essa duração é definida em nível global **Configurações na seção** **Períodos** de retenção de dados, que permite escolher entre 30 e 90 dias. Verifique se esses períodos de retenção de dados estão em conformidade com suas políticas e obrigações legais.
+Relatórios gerados por meio dessa ferramenta e dados associados, como arquivos anotados salvos no Azure, são armazenados por um período de tempo especificado. O período de retenção de dados é definido em Priva **Configurações** e se aplica a todas as solicitações de direitos de assunto. Para exibir ou alterar seus períodos de retenção de dados, siga as etapas abaixo:
+
+1. Em qualquer lugar em Priva Subject Rights Requests, **selecione Configurações** (o ícone de engrenagem) no canto superior direito da tela.
+2. Selecione **Períodos de retenção de dados** na navegação à esquerda.
+3. Usando o menu suspenso, selecione 30 ou 90 dias como o período de retenção.
+
+Verifique se os períodos de retenção de dados escolhidos estão em conformidade com as políticas e obrigações legais da sua organização.
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
