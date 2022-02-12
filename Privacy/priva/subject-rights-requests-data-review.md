@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como revisar os dados de solicitação de direitos de assunto coletados pelo Microsoft Priva e colaborar na conclusão da solicitação.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542839"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768425"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar dados para uma solicitação de direitos de assunto
 
@@ -47,9 +47,9 @@ As solicitações de direitos de assunto passam por vários estágios. Alguns pr
 Como as solicitações podem precisar ser trabalhadas ao longo do tempo ou por vários colaboradores, Priva fornece atualizações contínuas sobre o status e orientações sobre as próximas etapas a serem tomadas. Essas atualizações podem ser exibidas na página de visão geral da solicitação de direitos de assunto.
 
 #### <a name="data-estimate"></a>Estimativa de dados
-Depois de criar uma solicitação, Priva imediatamente começa a procurar possíveis combinações com o assunto de dados em seu Microsoft 365 ambiente. Depois de identificarmos todos os itens que acreditamos corresponder aos seus critérios, você verá a estimativa no cartão de  resumo de estimativa de dados na página Visão geral **da** solicitação. A quantidade de dados no escopo da pesquisa afetará o tempo que levará para concluir a estimativa.
+Depois de criar uma solicitação, Priva imediatamente começa a procurar possíveis combinações com o assunto de dados em seu Microsoft 365 ambiente. Depois de identificarmos todos os itens que acreditamos corresponder aos seus critérios, você verá a estimativa no cartão de  resumo de estimativa de dados na página Visão geral **da** solicitação. A quantidade de dados dentro do escopo da pesquisa afetará o tempo que levará para concluir a estimativa.
 
-Sua solicitação passará automaticamente para o próximo estágio de recuperação de dados, no qual todos os itens de conteúdo são coletados juntos para que seu stakeholder possa colaborar na revisão de dados. No entanto, em algumas instâncias, vamos pausar a estimativa de dados antes de ir para recuperação e notificá-lo das próximas etapas a serem seguidas antes de continuar.
+Sua solicitação será automaticamente para o próximo estágio de recuperação de dados, onde todos os itens de conteúdo são reunidos para que as partes interessadas possam colaborar na revisão de dados. Em algumas instâncias, vamos pausar a estimativa de dados antes de ir para recuperação e notificá-lo das próximas etapas a serem seguidas antes de continuar.
 
 Você também pode optar por pausar automaticamente no estágio de estimativa de dados quando criar uma solicitação de direitos de assunto pela primeira vez. Durante o processo de criação, selecione **a opção Obter uma primeira** estimativa durante a **etapa De configurações de** Pesquisa. Revise detalhes sobre a [etapa de configurações de pesquisa](subject-rights-requests-create.md#define-search-settings).
 
