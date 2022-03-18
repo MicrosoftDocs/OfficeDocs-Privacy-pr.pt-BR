@@ -16,16 +16,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como gerenciar os pacotes de dados criados pelo Microsoft Priva para solicitações de direitos de assunto e atender à solicitação ao assunto de dados.
-ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 8a6a41188de78508401b0dfffb3d7cdefb2320a5
+ms.sourcegitcommit: 4965df24fdc907f7a6e397f2c78019aaf72c7580
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542829"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63564441"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Gerar relatórios e atender a uma solicitação de direitos de assunto
 
-Depois de concluir sua revisão de dados para uma solicitação de direitos de assunto no Microsoft Priva, você pode seguir em frente para solicitar o atendimento. Priva criará relatórios e coletará os arquivos marcados para **Incluir** durante o processo de revisão de dados. Os arquivos selecionados desses pacotes de dados podem ser enviados ao seu assunto de dados para concluir a solicitação. Priva também oferece suporte para aproveitar a API de solicitações Microsoft 365 de direitos de assunto para introduzir recursos de automação.
+Depois de concluir sua revisão de dados para uma solicitação de direitos de assunto no Microsoft Priva, você pode seguir em frente para solicitar o atendimento. Priva criará relatórios e coletará os arquivos marcados para **Incluir** durante o processo de revisão de dados. Os arquivos selecionados desses pacotes de dados podem ser enviados ao seu assunto de dados para concluir a solicitação. Priva também dá suporte ao uso da API de solicitações Microsoft 365 direitos de assunto para introduzir recursos de automação.
+
+## <a name="understanding-reports"></a>Noções básicas sobre relatórios
+
+Depois de selecionar **Concluir revisão** no estágio **Revisar** dados da solicitação de direitos de assunto, os relatórios finais da solicitação começarão a gerar automaticamente. Na guia **Relatórios da** página detalhes de solicitações de direitos de assunto, a coluna **Status** indica quando a geração  do relatório está em andamento e quando um relatório está **pronto para download**. Pode levar até 30 minutos para concluir a criação dos relatórios.
+
+Os relatórios são divididos em duas seções:
+1. **Relatórios para o assunto de dados**: Esses relatórios contêm informações que podem ser retornadas ao assunto dos dados como parte do atendimento da solicitação. É aqui que você encontrará o pacote **de dados** que contém arquivos para você enviar para o assunto de dados.
+   > [!IMPORTANT]
+   > Um pacote de dados só será gerado se você marcar itens como **Include** durante a revisão de dados.
+
+   > [!IMPORTANT]
+   > Um pacote de dados só será gerado para tipos **de solicitações de Exportação** **e Acesso** . Um pacote de dados não será gerado para uma lista **marcada para solicitação de acompanhamento** . Revise detalhes sobre tipos [de solicitação de direitos de assunto](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+
+2. **Relatórios para uso interno**: esses relatórios são para os registros internos da sua organização relacionados à solicitação de direitos de entidade. Eles incluem um log de auditoria e uma lista de todos os arquivos aos que você aplicou marcas durante a revisão de dados para acompanhar ou realizar outras ações.
 
 ## <a name="prepare-final-reports-for-the-data-subject"></a>Preparar relatórios finais para o assunto de dados
 
@@ -48,9 +62,9 @@ Depois de revisar o conteúdo do arquivo zip, modifique-o conforme necessário p
 
 ## <a name="integrate-with-partner-solutions"></a>Integrar com soluções de parceiros
 
-Você pode integrar a solução Priva Subject Rights Requests com seus processos e ferramentas de negócios existentes aproveitando a API de solicitação de direitos de assunto Microsoft 365 assunto. Isso oferece uma maneira simples, porém poderosa, de introduzir a automação em sua estratégia de direitos de assunto.
+Você pode integrar a solução Priva Subject Rights Requests com seus processos e ferramentas de negócios existentes usando a API de solicitação de direitos de assunto Microsoft 365 assunto. Usar a API oferece uma maneira simples, porém poderosa, de introduzir a automação em sua estratégia de direitos de assunto.
 
-Quando os titulares de dados solicitam informações de sua organização, você pode aproveitar nossas APIs para criar essas solicitações em Microsoft 365 com base nos critérios personalizados para essa solicitação. Você pode criar a solicitação de direitos de assunto no Microsoft 365, acompanhar o andamento da solicitação por meio de suas etapas e confirmar quando a solicitação tiver concluído o processamento e o conteúdo estiver pronto para ser recuperado. Nossas APIs estão disponíveis para qualquer pessoa usar para tornar suas soluções mais extensíveis: sejam para ISVs, parceiros para acomodar para Microsoft 365 em suas soluções ou para que as organizações usem com seus aplicativos de linha de negócios.
+Quando os titulares de dados solicitam informações de sua organização, nossas APIs podem ajudar a criar essas solicitações dentro Microsoft 365 com base nos critérios exclusivos da solicitação. Você pode criar a solicitação de direitos de assunto no Microsoft 365, acompanhar o andamento da solicitação por meio de suas etapas e confirmar quando a solicitação tiver concluído o processamento e o conteúdo estiver pronto para ser recuperado. Nossas APIs estão disponíveis para qualquer pessoa usar para tornar suas soluções mais extensíveis: seja para ISVs, parceiros para acomodar para Microsoft 365 em suas soluções ou para que as organizações usem com seus aplicativos de linha de negócios.
 
 Para saber mais, confira [Usar a API de solicitação Graph direitos de assunto da Microsoft](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview).
 
