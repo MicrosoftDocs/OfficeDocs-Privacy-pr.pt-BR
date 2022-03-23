@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as opções de configurações globais do Microsoft Priva.
-ms.openlocfilehash: a621102db2a421cbda0c8d7298c30cede102f13e
-ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
+ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
+ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62768435"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746774"
 ---
 # <a name="configure-priva-settings"></a>Definir configurações do Priva
 
@@ -30,19 +30,19 @@ Você pode gerenciar as configurações do Microsoft Priva selecionando o ícone
 
 ## <a name="anonymization"></a>Anonimização
 
-Esse recurso permite que você mostre versões anonimizadas de nomes de usuário nos recursos de Gerenciamento de Risco de Privacidade para usuários em determinadas funções. Ele substituirá nomes de exibição identificáveis por um rótulo genérico para ajudar a mascarar as identidades dos usuários ao revisar dados confidenciais. Essa opção não se aplica à solução Solicitações de Direitos de Assunto.
+Você pode mostrar versões anonimizadas de nomes de usuário nos recursos de Gerenciamento de Riscos de Privacidade para usuários em determinadas funções. O recurso de anonimização substitui nomes de exibição identificáveis por um rótulo genérico para ajudar a mascarar as identidades dos usuários ao revisar dados confidenciais. Essa opção não se aplica à solução Solicitações de Direitos de Assunto.
 
 ## <a name="user-notification-emails"></a>Emails de notificação do usuário  
 
-As políticas no Gerenciamento de Riscos de Privacidade permitem definir parâmetros para avaliar possíveis riscos de privacidade em seu ambiente. Quando detectamos uma combinação de política, o Gerenciamento de Risco de Privacidade pode enviar um email para seus usuários com recomendações sobre ações corretivas a tomar e um link para treinamento de privacidade. Em Configurações, você pode habilitar ou desabilitar o recurso de notificação de email do Gerenciamento de Risco de Privacidade como um todo. Se o recurso de notificação estiver desativado Configurações, todos os emails serão desabilitados. Para saber mais sobre políticas, consulte [Create policies in Privacy Risk Management](risk-management-policies.md).
+As políticas no Gerenciamento de Riscos de Privacidade permitem definir parâmetros para avaliar possíveis riscos de privacidade em seu ambiente. Quando uma combinação de política é detectada, o Gerenciamento de Riscos de Privacidade pode enviar um email para seus usuários com recomendações sobre ações corretivas a tomar e um link para treinamento de privacidade. Em **Configurações**, você pode habilitar ou desabilitar o recurso de notificação de email do Gerenciamento de Risco de Privacidade como um todo. Se o recurso de notificação estiver desativado Configurações, todos os emails serão desabilitados. Para saber mais sobre políticas, consulte [Create policies in Privacy Risk Management](risk-management-policies.md).
 
 ## <a name="teams-collaboration"></a>Colaboração em equipes  
 
-Integre Microsoft Teams recursos com Solicitações de Direitos de Assunto Priva para aprimorar a colaboração com as partes interessadas. Sempre que uma solicitação de direitos de assunto é criada, uma equipe associada será criada em Teams. Os usuários podem ser adicionados a uma equipe na guia Colaboradores da solicitação. Para saber mais sobre solicitações de direitos de assunto, [consulte Learn about Priva Subject Rights Requests](subject-rights-requests.md).
+Integre Microsoft Teams com Solicitações de Direitos de Titulares priva para aprimorar a colaboração com as partes interessadas. Sempre que uma solicitação de direitos de assunto é criada, uma equipe associada será criada Teams. Os usuários podem ser adicionados a uma equipe na guia Colaboradores da solicitação. Para saber mais sobre solicitações de direitos de assunto, [consulte Learn about Priva Subject Rights Requests](subject-rights-requests.md).
 
 ## <a name="data-matching"></a>Correspondência de dados  
 
-Use esta seção para carregar esquemas de dados que descrevem atributos de seus titulares de dados, que ajudarão a identificar o titular de dados correto ao pesquisar dados pessoais em seu ambiente Microsoft 365. Esquemas e pacotes de regras são criados e carregados no formato XML. Em **Upload de dados pessoais**, você também pode enviar dados pessoais que corresponde a um esquema fornecido. Você pode criar e carregar seu próprio arquivo ou optar por carregar dados pessoais do Azure. Para saber mais sobre solicitações de direitos de assunto, [consulte Learn about Priva Subject Rights Requests](subject-rights-requests.md).
+Use esta seção para carregar esquemas de dados que descrevem atributos de seus titulares de dados, que ajudarão a identificar o titular de dados correto ao pesquisar dados pessoais em seu ambiente Microsoft 365 de dados. Esquemas e pacotes de regras são criados e carregados no formato XML. Em **Upload de dados pessoais**, você também pode enviar dados pessoais que corresponde a um esquema fornecido. Você pode criar e carregar seu próprio arquivo ou optar por carregar dados pessoais do Azure. Para saber mais sobre solicitações de direitos de assunto, [consulte Learn about Priva Subject Rights Requests](subject-rights-requests.md).
 
 ## <a name="data-retention-periods"></a>Períodos de retenção de dados
 
@@ -50,4 +50,21 @@ Essa configuração está relacionada a Solicitações de Direitos de Assunto Pr
 
 ## <a name="data-review-tags"></a>Marcas de revisão de dados
 
-Gerencie as marcas que você usará para marcar arquivos recuperados em uma solicitação de direitos de assunto. Essas marcas podem ser usadas para indicar conteúdo que precisará de mais atenção, como conteúdo que pode precisar ser excluído manualmente. Nesta seção de configurações, você pode editar os nomes e descrições para marcas personalizadas. Você também pode editar descrições de marca para as marcas criadas fornecidas pelo sistema. Os nomes das marcas do sistema não podem ser alterados. Para saber mais sobre solicitações de direitos de assunto, consulte [Review data for a subject rights request](subject-rights-requests-data-review.md#step-3-review-data).
+As marcas de revisão de dados podem ser usadas para marcar itens de conteúdo recuperados em uma solicitação de direitos de assunto. Essa área de configurações permite que você gerencie suas marcas. Priva fornece três marcas padrão: **Follow-up**, **Delete** e **Update**. Esses nomes de marca não podem ser editados, mas você pode fornecer uma descrição dessas marcas que sejam significativas para sua organização.
+
+Priva também fornece duas marcas personalizadas que você pode nomear e definir para uso da sua organização. Você os verá listados como **Marca Personalizada 1** e **Marca Personalizada 2** até editar os nomes.
+
+Siga as etapas abaixo para editar nomes de marcas e descrições:
+
+- Na página Priva **Configurações**, selecione **Marcas de revisão de dados**.
+- Encontre a marca na lista que você deseja editar e selecione o ícone **Editar** lápis ao lado de seu nome.
+- No painel de sobrevoos, faça suas edições nos campos disponíveis. Para marcas do sistema, você só pode editar a descrição. Para marcas personalizadas, você pode editar o nome e a descrição.
+- Quando terminar, selecione **Enviar para** salvar suas alterações.
+
+As configurações de marca se aplicam a todas as solicitações de direitos de assunto.
+
+Saiba mais sobre [como aplicar marcas ao revisar dados para uma solicitação de direitos de assunto](subject-rights-requests-data-review.md#apply-tags).
+
+Em **Configurações**, visite **Marcas de revisão de dados** para revisar e gerenciar suas marcas.
+ 
+Essas marcas podem ser usadas para indicar conteúdo que precisará de mais atenção, como conteúdo que pode precisar ser excluído manualmente. Nesta seção de configurações, você pode editar os nomes e descrições para marcas personalizadas. Você também pode editar descrições de marca para as marcas criadas fornecidas pelo sistema. Os nomes das marcas do sistema não podem ser alterados. Para saber mais sobre solicitações de direitos de assunto, consulte [Review data for a subject rights request](subject-rights-requests-data-review.md#step-3-review-data).
