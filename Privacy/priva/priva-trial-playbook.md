@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a avaliação do Microsoft Priva, confira ações recomendadas a serem tomadas durante o período de avaliação e revise links para documentação importante.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248831"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765504"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Guia estratégico de avaliação: Microsoft Priva
 
@@ -47,7 +47,7 @@ Com a **solução gerenciamento de** riscos de privacidade, você pode explorar 
 - Capacitar os funcionários de informações a tomar decisões inteligentes sobre como lidar com esses dados
 - Permitir que os usuários gerenciem efetivamente os dados e tomem medidas para atender aos regulamentos de privacidade em evolução
 
-### <a name="subject-rights-requests"></a>Solicitações de Direitos de Assunto
+### <a name="subject-rights-requests"></a>Solicitações de Direitos da Entidade
 
 Com a **solução Solicitações de Direitos de** Assunto, você pode aprender a lidar com consultas da solicitação inicial para produzir relatórios.
 
@@ -71,7 +71,7 @@ Priva ajuda você a entender os dados que sua organização armazena automatizan
 
 Para começar, vá para a seção Priva [do Centro de conformidade do Microsoft 365 e](https://compliance.microsoft.com/) veja estas páginas:
 
-1. [Visão](priva-data-profile.md#explore-the-overview-page) geral: fornece uma visão agregada de sua postura de privacidade, incluindo o volume, categoria, local e movimentação de dados pessoais em seu ambiente Microsoft 365 ambiente. Além disso, você tem visibilidade sobre o status atual e as tendências dos riscos de privacidade associados resultantes de dados pessoais serem supera compartilhadas, transferidas ou não sendousadas.
+1. [Visão](priva-data-profile.md#explore-the-overview-page) geral: fornece uma visão agregada de sua postura de privacidade, incluindo o volume, a categoria, a localização e a movimentação de dados pessoais em seu ambiente Microsoft 365 ambiente. Além disso, você tem visibilidade sobre o status atual e as tendências dos riscos de privacidade associados resultantes de dados pessoais serem supera compartilhadas, transferidas ou não sendousadas.
 1. [Perfil de](priva-data-profile.md#explore-the-data-profile-page) dados: fornece um instantâneo dos dados pessoais que sua organização armazena em Microsoft 365, incluindo volume, tipo e local (armazenamento e geografia).
 
 ## <a name="learn-about-policies"></a>Saiba mais sobre políticas
@@ -122,7 +122,7 @@ O Gerenciamento de Riscos de Privacidade pode notificar os proprietários de con
 1. [Correção de problemas de notificações por email](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [Enviar notificações em Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>Saiba mais sobre Solicitações de Direitos de Assunto
+## <a name="learn-about-subject-rights-requests"></a>Saiba mais sobre solicitações de direitos de entidade
 
 De acordo com determinados regulamentos de privacidade em todo o mundo, indivíduos (ou titulares de dados) podem fazer solicitações para revisar ou gerenciar os dados pessoais sobre si mesmos coletados pelas empresas. Esses pedidos são às vezes também chamados de Solicitações do titular dos dados (DSRs), Solicitações de acesso ao titular dos dados (DSARs), ou Solicitações de direitos do consumidor. Priva Subject Rights Requests pode ajudá-lo a lidar com essas perguntas.
 
@@ -163,9 +163,9 @@ Depois de criar uma solicitação de direitos de assunto, Priva usará suas entr
 
 Depois de concluir sua revisão de dados para uma solicitação de direitos de assunto, você pode seguir em frente para solicitar o atendimento.
 
-1. [Preparar relatórios finais para o assunto de dados](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [Preparar relatórios finais para o assunto de dados](subject-rights-requests-reports.md)
 1. [Integrar com soluções de parceiros](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [Gerenciar retenção de dados](subject-rights-requests-reports.md#manage-data-retention)
+1. [Gerenciar retenção de dados](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatizar tarefas de solicitações de direitos de entidade
 

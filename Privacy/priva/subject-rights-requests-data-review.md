@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como revisar os dados de solicitação de direitos de assunto coletados pelo Microsoft Priva e colaborar na conclusão da solicitação.
-ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 7e9222a67d2f7b7e81141d1ec9a65688800f436e
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746768"
+ms.locfileid: "63758430"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar dados para uma solicitação de direitos de assunto
 
@@ -88,14 +88,14 @@ Neste estágio, seus colaboradores devem revisar as descobertas na **guia Dados 
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marcar itens como Incluir ou Excluir e adicionar anotações
 
-Revise a lista de itens identificados para determinar se os dados pessoais do assunto de dados estão em cada item. Se o item contiver as informações do assunto de dados e pertencer como parte do relatório final de volta ao assunto de dados, marque o  item como Incluir  selecionando Incluir na barra de comandos na parte superior da lista de itens. Você também pode selecionar o botão **incluir** azul na área de revisão de conteúdo à direita da lista de itens. Quando você seleciona **Incluir**, um painel de sobrevoo aparece com uma opção para adicionar anotações. Quando terminar, selecione **Enviar** para salvar o status de revisão do item como **Include**.
+Revise a lista de itens identificados retornados pela pesquisa. Se você decidir que o item deve ser incluído como parte do relatório final de volta ao assunto de dados, selecione  Incluir na barra de comandos na parte superior da lista de itens. Você também pode selecionar o botão **incluir** azul na área de revisão de conteúdo à direita da lista de itens. Quando você seleciona **Incluir**, um painel de sobrevoo aparece com uma opção para adicionar anotações. Quando terminar, selecione **Enviar** para salvar o status de revisão do item como **Include**.
 
-Se você não precisar incluir um item como parte da solicitação, selecione **Excluir** na barra de comandos ou no botão **Excluir** na área de revisão de conteúdo. Excluir um item significa que não é relevante para a solicitação de direitos de assunto e o item não será incluído nos relatórios finais gerados para o [assunto de dados](subject-rights-requests-reports.md).
+Se o item não pertencer como parte da solicitação, selecione **Excluir** na barra de comandos ou no botão **Excluir** na área de revisão de conteúdo. Excluir um item significa que ele não será incluído nos relatórios [finais gerados para o assunto de dados](subject-rights-requests-reports.md).
 
 > [!NOTE]
-> Se você marcar um item **Exclude**, será necessário adicionar uma nota como justificativa para o motivo pelo qual ele não pertence à solicitação de direitos de assunto. As anotações são para fins internos e não estão incluídas nos relatórios finais.
+> Se você marcar um item como **Exclude**, será necessário adicionar uma nota como justificativa para o motivo pelo qual ele não pertence à solicitação de direitos de assunto. As anotações são para fins internos e não estão incluídas nos relatórios finais.
 
-Se o conteúdo parece ser um falso positivo, selecione Não  uma combinação para excluir o arquivo de seus relatórios finais e sinalizar o item como algo que não deveria ter sido detectado na pesquisa. No painel **Marcar como não uma combinação de** flyout, selecione **Confirmar** para nos dizer que o item não combina com seus critérios de pesquisa.
+Se o conteúdo parece ser um falso positivo, selecione **Não uma** combinação e, no painel de sobrevoos, selecione **Confirmar**. Essa ação excluirá o arquivo dos relatórios finais e sinaliza o item como algo que não deveria ter sido detectado na pesquisa.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -103,14 +103,14 @@ As marcas podem ser usadas para ajudá-lo a identificar itens que precisam de ma
 
 Por exemplo, se você determinar durante a revisão de dados que um item de conteúdo não precisa ser mantido pela sua organização, você pode aplicar a marca **Excluir** e exportar uma lista de todos os arquivos marcados para que você possa voltar e excluir os itens identificados quando terminar com a solicitação.
 
-As cinco marcas que você definir e gerenciar em [Configurações se aplicam](priva-settings.md#data-review-tags) a todas as suas solicitações de direitos de assunto.
+As cinco marcas gerenciadas **em Configurações se** aplicam a todas as solicitações de direitos de assunto.
 
 **Para adicionar ou remover marcas:**
 
 - Selecione o item na lista na guia **Dados coletados** da solicitação.
 - Na área de visualização do item à direita da lista, selecione o botão **Aplicar marcas** na linha inferior. Você também pode selecionar os três pontos à direita do nome do item e selecionar a **opção Aplicar marcas** .
 - Um painel de sobrevoo aparece com a lista de marcas. Marque a caixa ao lado de qualquer uma das marcas que você deseja aplicar ao item. Desinchando uma caixa de verificação removerá a marca.
-- Quando você estiver satisfeito com suas seleções, selecione **Salvar**, que salva suas seleções de marca e fecha o painel de flyout.
+- Quando terminar, selecione **Salvar**, que salva suas seleções de marca e fecha o painel de sobrevoos.
 
 **Para adicionar marcas personalizadas ou atualizar descrições de marca:**
 - Na página Solicitações de Direitos de Assunto, selecione **Configurações** no canto superior direito da tela para chegar às configurações priva.
@@ -119,12 +119,10 @@ As cinco marcas que você definir e gerenciar em [Configurações se aplicam](pr
 **Para exportar uma lista de itens marcados:**
 - Vá para a **página Dados coletados** em uma solicitação de direitos de assunto.
 - Acima da lista de itens, selecione o ícone de seta para baixo que diz **Exportar** quando você passar o mouse sobre ele.
-- Um Excel será baixado. Abra o arquivo quando terminar de baixar.
-
-O arquivo Excel baixado mostra as propriedades de todos os itens coletados pela pesquisa para a solicitação. Encontre a **coluna Marcas** para identificar e classificar os itens por marca.
+- Um Excel será baixado, que mostra as propriedades de todos os itens coletados pela pesquisa para a solicitação. Encontre a **coluna Marcas** para identificar e classificar os itens por marca.
 
 #### <a name="use-the-annotate-command-to-redact-text"></a>Use o comando Anotação para rediscar o texto
-Use **Annotate** para criar marcações em linha ou redactar dados em um arquivo selecionado. Por exemplo, se você precisar incluir um arquivo para um indivíduo que também contém as informações pessoais de outras pessoas, você pode usar a **redação** área (no botão Desenho na barra de comandos) para excluir todas as informações que não pertencem à pessoa que fez a solicitação. Quando suas edições são concluídas, selecione **Incluir** para adicionar o arquivo redacted à solicitação. A anotação cria uma cópia do arquivo, para que nada no arquivo original seja alterado e permaneça em seu local original. A cópia é armazenada no blob do Azure.
+O **comando Annotate** na área de revisão de conteúdo permite que você crie marcações em linha e redacte dados em um item de conteúdo. Por exemplo, se você precisar incluir um arquivo para um indivíduo que também contém as informações pessoais de um assunto de dados diferente, você pode usar a **redação** área sob o botão Desenho na barra de comandos para excluir todas as informações que não pertencem à pessoa que fez a solicitação. Quando suas edições são concluídas, selecione **Incluir** para adicionar o arquivo redacted à solicitação. A anotação cria uma cópia do arquivo, que é armazenado no blob do Azure. O arquivo original permanece inalterado e armazenado em seu local original.
 
 #### <a name="enter-notes-about-a-file"></a>Inserir anotações sobre um arquivo
 Para adicionar ou revisar anotações em um item, selecione o item de sua linha e vá para  a guia Anotações de Arquivo na área de revisão de conteúdo à direita. Você também pode usar a **opção Adicionar nota de arquivo** para criar um novo comentário. Para revisar ou adicionar anotações em um nível geral de caso, vá para a guia **Principal Notas** acima e use **a observação Adicionar caso**. Essas anotações estarão visíveis para os usuários que trabalham na solicitação, mas não serão incluídas no relatório final ou compartilhadas com o assunto dos dados.

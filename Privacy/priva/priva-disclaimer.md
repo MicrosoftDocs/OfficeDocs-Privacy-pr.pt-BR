@@ -2,8 +2,8 @@
 title: Aviso de isenção de responsabilidade legal da Microsoft Priva
 f1.keywords:
 - CSH
-ms.author: v-jgriffee
-author: jmgriffee
+ms.author: chvukosw
+author: chvukosw
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informações legais sobre o Microsoft Priva.
-ms.openlocfilehash: 290f3cc8ea995d4493bab1fdb603487471a53959
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: fe4741adc5866050210953a3672c3c4ac156ba32
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248846"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765494"
 ---
 # <a name="microsoft-priva-legal-disclaimer"></a>Aviso de isenção de responsabilidade legal da Microsoft Priva
 

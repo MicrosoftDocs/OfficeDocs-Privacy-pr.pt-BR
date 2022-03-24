@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as opções de configurações globais do Microsoft Priva.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746774"
+ms.locfileid: "63758420"
 ---
 # <a name="configure-priva-settings"></a>Definir configurações do Priva
 
@@ -64,7 +64,3 @@ Siga as etapas abaixo para editar nomes de marcas e descrições:
 As configurações de marca se aplicam a todas as solicitações de direitos de assunto.
 
 Saiba mais sobre [como aplicar marcas ao revisar dados para uma solicitação de direitos de assunto](subject-rights-requests-data-review.md#apply-tags).
-
-Em **Configurações**, visite **Marcas de revisão de dados** para revisar e gerenciar suas marcas.
- 
-Essas marcas podem ser usadas para indicar conteúdo que precisará de mais atenção, como conteúdo que pode precisar ser excluído manualmente. Nesta seção de configurações, você pode editar os nomes e descrições para marcas personalizadas. Você também pode editar descrições de marca para as marcas criadas fornecidas pelo sistema. Os nomes das marcas do sistema não podem ser alterados. Para saber mais sobre solicitações de direitos de assunto, consulte [Review data for a subject rights request](subject-rights-requests-data-review.md#step-3-review-data).
