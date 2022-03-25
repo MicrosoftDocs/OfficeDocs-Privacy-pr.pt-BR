@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as opções de configurações globais do Microsoft Priva.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758420"
+ms.locfileid: "63765484"
 ---
 # <a name="configure-priva-settings"></a>Definir configurações do Priva
 
@@ -46,7 +46,7 @@ Use esta seção para carregar esquemas de dados que descrevem atributos de seus
 
 ## <a name="data-retention-periods"></a>Períodos de retenção de dados
 
-Essa configuração está relacionada a Solicitações de Direitos de Assunto Priva. Ele permite controlar sua preferência por quanto tempo deseja reter dados coletados e relatórios gerados após o fechamento da solicitação. Isso pode ser definido como 30 ou 90 dias e se aplica a todas as solicitações de direitos de assunto que você criar. Recomendamos verificar se os períodos de retenção de dados estão em conformidade com as políticas e obrigações legais da sua organização. Saiba mais sobre como [definir a retenção de dados para solicitações de direitos de assunto](subject-rights-requests-reports.md#manage-data-retention).
+Essa configuração está relacionada a Solicitações de Direitos de Assunto Priva. Ele permite controlar sua preferência por quanto tempo deseja reter dados coletados e relatórios gerados após o fechamento da solicitação. Isso pode ser definido como 30 ou 90 dias e se aplica a todas as solicitações de direitos de assunto que você criar. Recomendamos verificar se os períodos de retenção de dados estão em conformidade com as políticas e obrigações legais da sua organização. Saiba mais sobre a [retenção de dados para solicitações de direitos de assunto](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Marcas de revisão de dados
 
