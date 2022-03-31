@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como criar e personalizar políticas de privacidade para manipular os dados pessoais da sua organização em Microsoft 365.
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248850"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586444"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Criar políticas no Gerenciamento de Riscos de Privacidade
 
 Você pode criar novas políticas no Gerenciamento de Riscos de Privacidade para resolver cenários de risco importantes para sua organização. Para um início rápido, use os modelos padrão para criar novas políticas para superexposure de dados, transferências de dados e minimização de dados e cenários. Você também pode personalizar suas próprias políticas, usando qualquer um desses modelos como ponto de partida.
 
-Ao criar ou editar políticas, você pode configurar notificações por email ou, quando disponível, dicas de política para Teams para chamar a atenção dos usuários para correção.
+Ao criar ou editar políticas, você pode configurar notificações por email ou, quando disponível, dicas de política para Teams para chamar a atenção de seus usuários para correção.
 
 ## <a name="create-a-policy-from-a-template"></a>Criar uma política a partir de um modelo
 
@@ -56,7 +56,7 @@ Todos os tipos de política seguem esse fluxo básico. Determinadas configuraç�
 1. Prossiga pelo assistente e escolha as configurações desejadas. As opções são:
     - **Dados a monitorar**: selecione o tipo de dados pessoais que sua política monitorará.
     - **Usuários e grupos**: aplique sua política a todos os usuários ou usuários selecionados.
-    - **Locais**: aplique sua política a áreas selecionadas em Microsoft 365.
+    - **Locais**: aplique sua política às áreas selecionadas Microsoft 365.
     - **Condições**: definir as condições para sua política. Essas opções variam dependendo do tipo de política.
     - **Resultados**: defina os resultados quando uma combinação de política for encontrada, como notificações de usuário.
     - **Alertas**: decida a frequência de alertas aos administradores quando uma diretiva for encontrada.
@@ -90,15 +90,15 @@ Observe que a funcionalidade geral do Gerenciamento de Riscos de Privacidade par
 
 As políticas de minimização de dados se concentram na idade do conteúdo e quanto tempo passou desde a última modificação. O monitoramento de dados pessoais que ainda estão sendo mantidos em conteúdo antigo e nãoutilado pode ajudá-lo a gerenciar melhor os dados armazenados e reduzir os riscos. Essa configuração é manipulada na **tela Condições** .
 
-Por padrão, as políticas de minimização de dados pesquisam conteúdo contendo dados pessoais que foram criados ou modificados pela última vez há pelo menos 60 dias. Ao editar ou criar uma política personalizada, você pode selecionar entre outros quadros de tempo predefinidos.
+Por padrão, as políticas de minimização de dados pesquisam conteúdo contendo dados pessoais que foram criados ou modificados pela última vez há pelo menos 30 dias. Ao editar ou criar uma política personalizada, você pode selecionar entre outros quadros de tempo predefinidos.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>Saiba mais sobre configurações para políticas de transferência de dados
 
 As políticas de transferência de dados permitem monitorar se os dados estão sendo transferidos entre determinadas regiões do mundo ou entre diferentes departamentos da sua organização. Na tela **Condições** , você pode escolher quais tipos de transferências o Gerenciamento de Riscos de Privacidade deve procurar.
 
-Por padrão, as políticas de transferência de dados pesquisam transferências entre a América do Norte e outras regiões. Ao editar ou criar uma política personalizada, você pode escolher o tipo de transferência e, em seguida, fazer seleções para as regiões ou departamentos do remetente e destinatário.
+Por padrão, as políticas de transferência de dados pesquisam transferências entre América do Norte e outras regiões. Ao editar ou criar uma política personalizada, você pode escolher o tipo de transferência e, em seguida, fazer seleções para as regiões ou departamentos do remetente e destinatário.
 
-As políticas de transferência de dados também dão suporte ao fornecimento de dicas de política e recomendações aos seus usuários Teams, para que eles possam se manter informados sobre as práticas recomendadas para lidar com dados. Isso pode ser alternado na **tela Resultados** .
+As políticas de transferência de dados também dão suporte ao fornecimento de dicas de política e recomendações aos seus usuários no Teams, para que eles possam se manter informados sobre as práticas recomendadas para lidar com dados. Isso pode ser alternado na **tela Resultados** .
 
 ## <a name="learn-about-settings-for-data-overexposure-policies"></a>Saiba mais sobre configurações para políticas de sobreexposure de dados
 

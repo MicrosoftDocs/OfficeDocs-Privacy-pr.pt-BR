@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: O Microsoft Priva ajuda as organizações a avaliarem os dados pessoais armazenados no Microsoft 365, ajudam a identificar e correção de riscos de privacidade e a gerenciar solicitações de direitos de entidade em escala.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: O Microsoft Priva ajuda as organizações a avaliarem os dados pessoais armazenados em Microsoft 365, ajudam a identificar e correção de riscos de privacidade e a gerenciar solicitações de direitos de entidade em escala.
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248832"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586454"
 ---
 # <a name="learn-about-microsoft-priva"></a>Saiba mais sobre o Microsoft Priva
 
@@ -79,7 +79,7 @@ Para saber mais, confira [Criar políticas no Gerenciamento de Riscos de Privaci
 
 Determinados regulamentos de privacidade em todo o mundo permitem que indivíduos, também chamados de titulares de dados *,* façam solicitações para revisar ou gerenciar dados pessoais sobre si mesmos coletados pelas empresas. Para empresas que armazenam grandes quantidades de informações não estruturadas, encontrar os dados relevantes pode ser uma tarefa excelente.
 
-Priva Subject Rights Requests oferece a você a capacidade de automatizar o atendimento de direitos de assunto de dados com acesso fácil a dados relevantes e fluxos de trabalho personalizáveis que se ajustam aos processos comerciais existentes. Quando você pesquisa dados relacionados a um indivíduo, nossa solução de solicitação de direitos de assunto coletará automaticamente dados de todo o seu ambiente de Microsoft 365 e o ajudará a revisar as descobertas e produzir relatórios. Você pode colaborar com segurança com várias pessoas em sua organização para concluir solicitações. Você também pode personalizar seus fluxos de trabalho com base em seus processos de negócios com modelos internos.
+Priva Subject Rights Requests oferece a você a capacidade de automatizar o atendimento de direitos de assunto de dados com acesso fácil a dados relevantes e fluxos de trabalho personalizáveis que se ajustam aos processos comerciais existentes. Quando você pesquisa dados relacionados a um indivíduo, nossa solução de solicitação de direitos de assunto coletará automaticamente dados de todo o seu ambiente Microsoft 365 e o ajudará a revisar as descobertas e produzir relatórios. Você pode colaborar com segurança com várias pessoas em sua organização para concluir solicitações. Você também pode personalizar seus fluxos de trabalho com base em seus processos de negócios com modelos internos.
 
 Para saber mais, confira [Saiba mais sobre Solicitações de Direitos de Assunto priva](subject-rights-requests.md).
 
@@ -102,17 +102,46 @@ Priva avalia os dados da sua organização armazenados nos seguintes serviços M
 
 Priva avalia apenas os dados no ambiente de Microsoft 365 da sua organização. Ele não acessa dados pessoais que não fazem parte do ambiente de Microsoft 365 da organização. Por exemplo, ele não acessa a conta pessoal Microsoft 365 usuário.
 
+## <a name="priva-availability"></a>Priva availability
+
+O Microsoft Priva foi lançado em todo o mundo. Dependendo de onde uma organização provisionou seu locatário, Priva pode não estar totalmente disponível. A lista a seguir descreve a disponibilidade priva com base em onde uma organização provisionou seu locatário. Se Priva não estiver disponível para você, Priva **Privacy Risk Management** e **Priva Subject Rights Requests** não aparecerão na navegação à esquerda do Centro de conformidade do Microsoft 365. Continuaremos a atualizar essa lista à medida que Priva se tornar acessível em todas as localizações geográficas.
+
+Visite [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) para saber mais sobre provisionamento de dados em regiões geográficas e países.
+
+**Disponível**
+
+- Austrália
+- Brasil
+- Canadá
+- França
+- Alemanha
+- Índia
+- Japão
+- Reino Unido
+- Estados Unidos (Observação: não disponível para clientes do Community (GCC) moderados, GCC Alto ou Departamento de Defesa (DoD).
+
+**Ainda não disponível**
+
+- Noruega
+- Polônia
+- Catar
+- Cingapura
+- África do Sul
+- Coreia do Sul
+- Espanha
+- Suécia
+- Suíça
+- Emirados Árabes Unidos
+
 ## <a name="more-resources"></a>Mais recursos
 
-Para ver uma visualização em vídeo de Priva, consulte Gerenciamento de Privacidade baseado em [IA para](https://www.youtube.com/watch?v=6OLky1biPIQ) Microsoft 365 da Microsoft Mechanics no YouTube.
+Assista a um vídeo de 13 minutos [explicando os recursos do Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) do Microsoft Mechanics no YouTube.
 
-Para obter mais informações sobre como a Microsoft aborda a privacidade e protege seus dados, visite:
-
-- [Privacidade da Microsoft](/privacy)
+Para obter mais informações sobre como a Microsoft aborda a privacidade e protege seus dados, visite [a Privacidade da Microsoft](/privacy).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para começar a usar Priva, consulte [Começar com Priva](priva-setup.md).
+Para começar a usar Priva, [consulte Introdução com Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
