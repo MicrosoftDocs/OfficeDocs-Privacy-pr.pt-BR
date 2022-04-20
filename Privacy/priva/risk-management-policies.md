@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como criar e personalizar políticas de privacidade para lidar com os dados pessoais da sua organização Microsoft 365.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865770"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930502"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Criar políticas no Gerenciamento de Riscos de Privacidade
 
@@ -33,7 +33,7 @@ Ao criar ou editar políticas, você pode configurar notificações por email ou
 
 Siga estas etapas para criar uma política usando qualquer um dos modelos padrão.
 
-1. No [Centro de conformidade do Microsoft 365,](https://compliance.microsoft.com/) vá para a seção Gerenciamento de Risco de Privacidade de Priva e selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), acesse a seção Gerenciamento de Risco de Privacidade da Priva e selecione **Políticas**.
 1. Selecione **Criar uma política**.
 1. Escolha o tipo de modelo desejado. Isso abrirá um painel de submenu com informações sobre o modelo.
 1. Para examinar as configurações padrão do modelo, incluindo tipos de dados, locais de dados e as condições que disparam correspondências de política, selecione **Exibir configurações**.
@@ -48,7 +48,7 @@ Para assumir o controle granular das configurações de uma política, você pod
 
 Todos os tipos de política seguem esse fluxo básico. Determinadas configurações e opções serão alteradas dependendo da política escolhida.
 
-1. No [Centro de conformidade do Microsoft 365,](https://compliance.microsoft.com/) vá para a seção Gerenciamento de Risco de Privacidade de Priva e selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), acesse a seção Gerenciamento de Risco de Privacidade da Priva e selecione **Políticas**.
 1. Selecione **Criar uma política**.
 1. Escolha a **opção** Personalizada para começar a usar o assistente.
 1. Escolha o tipo de modelo de linha de base: **Superexposure de dados,** **transferências de dados ou** **minimização de dados**. Cada uma delas fornecerá determinadas opções durante a criação da política.
