@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a avaliação do Microsoft Priva, confira as ações recomendadas a serem tomadas durante o período de avaliação e examine os links para documentação importante.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930522"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014391"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Guia estratégico de avaliação: Microsoft Priva
 
@@ -87,21 +87,21 @@ O Gerenciamento de Riscos de Privacidade oferece a capacidade de configurar pol�
 
 ## <a name="create-and-customize-policies"></a>Criar e personalizar políticas
 
-Crie novas políticas no Gerenciamento de Riscos de Privacidade para lidar com cenários de risco de privacidade importantes para sua organização. Para um início rápido, use os modelos padrão para criar novas políticas para superexposure de dados, transferências de dados e minimização de dados e cenários.
+Crie novas políticas no Gerenciamento de Riscos de Privacidade para lidar com cenários de risco de privacidade importantes para sua organização. Para um início rápido, use as configurações padrão do modelo para criar novas políticas para superexposure de dados, transferências de dados e minimização de dados e cenários.
 
-1. [Criar uma política com base em um modelo](risk-management-policies.md#create-a-policy-from-a-template)
-1. [Criar uma política personalizada](risk-management-policies.md#create-a-custom-policy)
-1. [Saiba mais sobre as principais configurações para todas as políticas](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [Saiba mais sobre as configurações para políticas de minimização de dados](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [Saiba mais sobre as configurações para políticas de transferência de dados](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [Saiba mais sobre as configurações para políticas de superexposição de dados](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [Criar uma política usando um modelo com configurações padrão](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [Criar uma política personalizando as configurações do modelo](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [Saiba mais sobre as principais configurações para todas as políticas](risk-management-policies.md)
+1. [Saiba mais sobre as configurações para políticas de minimização de dados](risk-management-policy-data-minimization.md)
+1. [Saiba mais sobre as configurações para políticas de transferência de dados](risk-management-policy-data-transfer.md)
+1. [Saiba mais sobre as configurações para políticas de superexposição de dados](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>Gerenciar políticas
 
 Depois de criar políticas no Gerenciamento de Riscos de Privacidade para lidar com cenários de minimização de dados, transferência de dados ou superexpusuração de dados, talvez você queira revisar ou atualizar suas configurações de política. Talvez você também queira testar uma nova política antes de implantá-la totalmente para uso contínuo.
 
-1. [Exibir detalhes da política](risk-management-policies-manage.md#view-policy-details)
-1. [Testar sua política](risk-management-policies-manage.md#test-your-policy)
+1. [Exibir detalhes da política](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [Testar sua política](risk-management-policies-manage.md#testing-a-policy)
 1. [Excluir uma política](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>Entender os alertas e os problemas da política
@@ -117,9 +117,9 @@ A revisão de alertas permite identificar casos que precisam de acompanhamento. 
 
 O Gerenciamento de Riscos de Privacidade pode notificar os proprietários de conteúdo diretamente sobre as correspondentes para as políticas de superexposure, minimização de dados e transferência de dados. Com as notificações por email, os usuários podem facilmente descobrir sobre o conteúdo que precisam examinar.
 
-1. [Preparar o conteúdo de treinamento para notificações de política](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [Configurar notificações por email para políticas](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [Corrigir problemas de notificações por email](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [Preparar o conteúdo de treinamento para notificações de política](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [Configurar notificações por email para políticas](risk-management-notifications.md#set-user-email-notifications)
+1. [Visualizar e personalizar notificações por email](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Enviar notificações no Teams](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>Saiba mais sobre solicitações de direitos de entidade

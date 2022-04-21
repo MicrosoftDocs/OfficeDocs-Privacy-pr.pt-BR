@@ -14,10 +14,14 @@
   items:
     - name: Saiba mais sobre o Gerenciamento de Riscos de Privacidade
       href: risk-management.md
-    - name: Criar políticas
+    - name: Saiba como criar e gerenciar políticas
       href: risk-management-policies.md
-    - name: Gerenciar políticas
-      href: risk-management-policies-manage.md
+    - name: Criar uma política de superexposição de dados
+      href: risk-management-policy-data-overexposure.md
+    - name: Criar uma política de transferência de dados
+      href: risk-management-policy-data-transfer.md
+    - name: Criar uma política de minimização de dados
+      href: risk-management-policy-data-minimization.md
     - name: Investigar e corrigir alertas
       href: risk-management-alerts.md
     - name: Enviar notificações do usuário

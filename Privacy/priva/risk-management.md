@@ -16,22 +16,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os recursos da solução de Gerenciamento de Riscos de Privacidade da Microsoft Priva para gerenciar a minimização de dados, a transferência de dados e os riscos de superexposição de dados. Use políticas para detectar e corrigir problemas.
-ms.openlocfilehash: f5a263a958cd103ef8145f6006f689c9dffea5b0
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 88d7bc968315845eebd6cdcae3d3344c75b31ee7
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865760"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014511"
 ---
 # <a name="learn-about-priva-privacy-risk-management"></a>Saiba mais sobre o Gerenciamento de Riscos de Privacidade de Priva
 
-O Gerenciamento de Riscos de Privacidade no Microsoft Priva oferece a capacidade de configurar políticas que identifiquem riscos de privacidade em seu ambiente Microsoft 365 e habilitem a correção fácil. As políticas do Gerenciamento de Riscos de Privacidade destinam-se a ser guias internos e podem ajudá-lo:
+O Gerenciamento de Riscos de Privacidade no Microsoft Priva oferece a capacidade de configurar políticas que identifiquem riscos de privacidade em seu ambiente Microsoft 365 e habilitem a correção fácil. As políticas de Gerenciamento de Riscos de Privacidade destinam-se a ser guias internos e podem ajudá-lo:
 
-- Detectar dados pessoais sobrepostos para que os usuários possam protege-los
-- Identificar e limitar transferências de dados pessoais entre departamentos ou fronteiras regionais
-- Ajudar os usuários a identificar e reduzir a quantidade de dados pessoais não utilizados que você armazena
+- Detectar dados pessoais sobrepostos para que os usuários possam protege-los.
+- Identificar e limitar transferências de dados pessoais entre departamentos ou fronteiras regionais.
+- Ajude os usuários a identificar e reduzir a quantidade de dados pessoais não utilizados que você armazena.
 
-Os modelos internos do Gerenciamento de Riscos de Privacidade para esses cenários oferecem um início fácil na criação de políticas. Você também pode ajustar sua abordagem por meio [da criação de políticas personalizadas](risk-management-policies.md), usando qualquer um desses modelos como ponto de partida.
+O Gerenciamento de Riscos de Privacidade oferece modelos internos para esses cenários para ajudá-lo a criar políticas facilmente. Você também pode ajustar sua abordagem criando [políticas personalizadas](risk-management-policies.md), usando qualquer um desses modelos como ponto de partida.
 
 Quando as correspondências de política são encontradas, os administradores podem examinar alertas sobre as descobertas e tomar decisões sobre como lidar com os dados criando problemas para ação adicional dos usuários. Para saber mais, confira [Investigar e corrigir alertas no Gerenciamento de Riscos de Privacidade](risk-management-alerts.md). Você também pode configurar notificações por email e, para tipos de política com suporte, Teams notificações para notificar seus proprietários de conteúdo diretamente sobre as correspondentes à política. Eles podem tomar medidas corretivas dessas notificações e saber mais sobre as práticas recomendadas para lidar com dados com links que você fornece para seus próprios materiais de treinamento. Para obter mais informações, consulte [Enviar notificações do usuário no Gerenciamento de Riscos de Privacidade](risk-management-notifications.md).
 
@@ -51,11 +51,17 @@ A transferência de dados pessoais apresenta riscos, especialmente quando transf
 
 As políticas de transferência de dados permitem monitorar transferências entre diferentes regiões do mundo ou entre departamentos em sua organização, bem como transferências fora da sua organização. Quando uma correspondência de política é detectada, você pode enviar notificações por email aos usuários que permitem que eles executem ações corretivas no email, como tornar os itens de conteúdo particulares, notificar os proprietários de conteúdo ou marcar itens para revisão posterior.
 
+Saiba como criar uma política [de transferência de dados](risk-management-policy-data-transfer.md).
+
 ## <a name="minimize-stored-data"></a>Minimizar dados armazenados
 
 Ao longo do tempo, as empresas podem coletar grandes quantidades de dados pessoais de clientes ou funcionários. Às vezes, isso inclui dados que não precisam mais ser armazenados e estão sendo não utilizados. Esse tipo de dados deve ser reduzido para limitar os riscos de privacidade. As políticas de minimização de dados podem ser usadas para resolver riscos desse tipo.
 
 As políticas de minimização de dados permitem que você procure dados que sua organização armazenou por pelo menos um determinado período de tempo. Isso pode ajudá-lo a gerenciar suas práticas de armazenamento contínuas. Quando as correspondências de política são encontradas, as opções de correção incluem marcar itens para exclusão, notificar proprietários de conteúdo ou marcar itens para revisão posterior.
+
+## <a name="next-steps-learn-about-policies"></a>Próximas etapas: saiba mais sobre políticas
+
+Visite [as políticas de Gerenciamento de](risk-management-policies.md) Risco de Privacidade para saber como criar políticas que abordam esses principais cenários de privacidade.
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
