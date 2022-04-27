@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a visão geral e o perfil de dados em Priva e como obter insights sobre os dados pessoais no ambiente de Microsoft 365 da sua organização.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930592"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059745"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Localizar e visualizar dados pessoais no Microsoft Priva
 
@@ -75,7 +75,7 @@ Esse insight também aborda as correspondentes de políticas no modo "Testando" 
 
 #### <a name="items-with-the-most-data-subject-content"></a>Itens com mais conteúdo de assunto de dados
 
-Esse insight faz referência a informações do recurso de correspondência de dados em solicitações de direitos de entidade e exibe itens de conteúdo descobertos em Microsoft 365 que contêm a maioria dos titulares de dados. Para saber mais sobre essa configuração, consulte [Saiba mais sobre solicitações de direitos de entidade](subject-rights-requests.md).
+Esse insight exibe itens de conteúdo que contêm os dados pessoais da maioria dos titulares dos dados. Para receber esses insights, sua organização precisa configurar a correspondência de dados [para solicitações de direitos de entidade](subject-rights-requests-data-match.md).
 
 Esses itens podem ajudar a confirmar a configuração de correspondência de dados e a reduzir os riscos de privacidade relacionados a esses itens. Selecione **Exibir resumo para** uma exibição de resumo. Selecione **Explorar** para obter uma exibição detalhada de até 100 desses itens. Aqui, você pode visualizar esses itens e determinar a relevância e exportar a lista .csv formato.
 
