@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como carregar informações adicionais para o Microsoft Priva sobre seus assuntos de dados.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930573"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059735"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Correspondência de dados para solicitações de direitos de entidade
 
 Com a correspondência de dados, as organizações podem permitir que o Microsoft Priva identifique os titulares dos dados com base nos valores de dados fornecidos exatos. Isso pode ajudar a aumentar a precisão da localização do conteúdo do titular dos dados que corresponde a esses valores de dados tanto para sua equipe interna quanto para usuários externos com os quais você interage. Ele também simplifica a necessidade de fornecer campos manualmente durante a criação da solicitação de direitos de assunto e fornece contexto dentro de solicitações de direitos de assunto e para o bloco Visão geral que mostra seus itens com a maioria do conteúdo do titular dos dados. Para saber mais sobre essa exibição, [consulte Localizar e visualizar dados pessoais em Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Para usar o recurso de correspondência de dados, você precisará ser membro do grupo de função Gerenciamento de Privacidade. De dentro de Priva no [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), selecione **Configurações** na navegação superior e, em seguida, correspondência **de dados**. A partir daqui, você precisará definir o esquema de dados pessoais e fornecer um upload de dados pessoais, conforme mostrado abaixo. Observe que você pode adicionar itens e excluir itens adicionados por meio da interface do usuário. No entanto, não é possível modificar um item no lugar da interface do usuário no momento.
+Para usar o recurso de correspondência de dados, você precisará ser membro do grupo de função Gerenciamento de Privacidade. De dentro de Priva no [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), selecione **Configurações** na navegação superior e, em seguida, correspondência **de dados**. A partir daqui, você precisará definir o esquema de dados pessoais e fornecer um upload de dados pessoais, conforme mostrado abaixo. Observe que você pode adicionar itens e excluir itens adicionados, mas não pode modificar um item.
 
 ## <a name="prepare-for-data-import"></a>Preparar-se para a importação de dados
 
@@ -35,7 +35,7 @@ Antes de definir o esquema ou carregar dados, você precisará identificar a ori
 
 ## <a name="define-the-personal-data-schema"></a>Definir o esquema de dados pessoais
 
-O esquema de dados pessoais descreverá os atributos para seus titulares de dados. Upload esquema na primeira guia da área de configurações de correspondência de dados. Os arquivos necessários incluem **um arquivo** XML de esquema de dados pessoais e um arquivo XML **do pacote de** regras.
+A primeira etapa na configuração da correspondência de dados é definir o esquema de dados pessoais, que descreverá os atributos para seus titulares de dados. Você carregará esse esquema na primeira guia na área de configurações de correspondência de dados. Os arquivos necessários incluem **um arquivo** XML de esquema de dados pessoais e um arquivo XML **do pacote de** regras.
 
 ### <a name="personal-data-schema-xml"></a>XML do esquema de dados pessoais
 
@@ -129,8 +129,13 @@ Crie um pacote de regras no formato XML (com codificação Unicode), como no có
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>Tipos de informações confidenciais
+
+A segunda etapa na configuração da correspondência de dados é criar tipos de informações confidenciais exclusivos para a correspondência de dados pessoais (PDM). [SiTs (tipos de](/microsoft-365/compliance/sensitive-information-type-learn-about) informações confidenciais) são classificadores baseados em padrões que detectam informações confidenciais, como números de cartão de crédito ou seguro social. Configurar um tipo de informações confidenciais de PDM permite que você use valores de dados exatos em vez de valores genéricos para detectar correspondências. Para iniciar esta etapa, selecione **Criar tipo de informações confidenciais do PDM** para iniciar o assistente de criação.
+
 ## <a name="upload-personal-data"></a>Upload dados pessoais
-Depois de definir o esquema de dados pessoais, você pode executar o **upload** de dados pessoais na segunda guia da página de configurações de correspondência de dados. Ao selecionar **Adicionar**, escolha o esquema pessoal que você definiu na primeira etapa e carregue o arquivo que contém os dados pessoais.
+
+Depois de definir o esquema de dados pessoais e os tipos de informações confidenciais, a terceira etapa é carregar dados pessoais. Vá para **a guia** Upload de dados pessoais, selecione Adicionar e escolha o esquema pessoal que você definiu na primeira etapa e carregue o arquivo que contém os dados pessoais.
 
 Você pode carregar esses dados pessoais escolhendo um arquivo local ou fornecendo uma URL SAS para um local Armazenamento do Microsoft Azure existente que contém seu arquivo de dados pessoais.
 Se você preparou um arquivo como a primeira etapa nesse processo que está em conformidade com o esquema criado, poderá usar esse arquivo para o upload.
