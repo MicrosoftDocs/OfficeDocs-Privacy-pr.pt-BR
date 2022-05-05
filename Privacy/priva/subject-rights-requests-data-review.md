@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como examinar os dados de solicitação de direitos de entidade coletados pelo Microsoft Priva e colaborar na conclusão da solicitação.
-ms.openlocfilehash: f417ebe6129f877c273fc2613a44e6b4a21f0be0
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3a1211d391ee196ad431fe19ab9134386c9803a4
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930632"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059755"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examinar dados de uma solicitação de direitos de entidade
 
@@ -33,12 +33,35 @@ Para ver os resultados iniciais da pesquisa, vá para a área Priva do portal de
 
 Selecione sua solicitação na lista para ver os detalhes da solicitação. Aqui você pode saber mais sobre as propriedades da solicitação, os resultados da pesquisa e o status da solicitação. Esta página se tornará seu hub para trabalhar e colaborar no gerenciamento dos arquivos encontrados, na criação de relatórios e exportações e na conclusão da solicitação.
 
-Os blocos na página de detalhes da solicitação incluem:
+A **guia** Visão geral da página de detalhes da solicitação fornece detalhes sobre a solicitação, um indicador de progresso mostrando sua etapa atual e informações importantes sobre os dados encontrados. Os blocos nesta página incluem o seguinte:
 
-- **Detalhes**: os detalhes essenciais sobre a solicitação, incluindo sua data limite e data de solicitação, sua descrição e a regulamentação de privacidade relacionada.
-- **Progresso**: uma linha do tempo que indica as etapas concluídas e todas as tarefas ainda a serem concluídas.
-- Estatísticas sobre o estágio de progresso atual. Esse bloco pode mostrar informações como um resumo de estimativa de dados, quantos itens foram encontrados em sua pesquisa e seus locais em Microsoft 365 ou o status de suas exportações.
-- **Itens de prioridade a serem examinados**: este bloco mostrará informações sobre todos os itens importantes que Priva detectou para você. Por exemplo, isso pode incluir informações confidenciais que já contêm um rótulo de confidencialidade da Microsoft ou itens com dados sobre vários indivíduos que podem exigir redação. Isso ajudará os administradores a saber por onde começar a revisão. Os itens de prioridade podem ser encontrados em Dados coletados pela filtragem pela coluna "Tipos de Prioridade".
+##### <a name="details"></a>Detalhes
+
+O **cartão** Detalhes exibe informações básicas para orientá-lo para a solicitação, como a data limite, a data de criação, a descrição e a regulamentação de privacidade relacionadas à solicitação.
+
+##### <a name="progress"></a>Progress
+
+O **cartão** de progresso lista cada etapa no processo: estimativa de dados, recuperar dados, examinar dados, gerar relatórios e fechar a solicitação. Um círculo azul preenchido ao lado da etapa indica a etapa em que você está atualmente. Uma marca de seleção dentro do círculo azul significa que a etapa foi concluída e o círculo não preenchido significa que a etapa ainda não foi iniciada.
+
+##### <a name="total-number-of-items-found"></a>Número total de itens encontrados
+
+Estatísticas sobre o estágio de progresso atual. Esse bloco pode mostrar informações como um resumo de estimativa de dados, quantos itens foram encontrados em sua pesquisa e seus locais em Microsoft 365 ou o status de suas exportações.
+
+##### <a name="priority-items-to-review"></a>Itens de prioridade a serem examinados
+
+Os **itens de prioridade a serem examinados** mostram itens que talvez você queira priorizar ao iniciar a revisão. O bloco exibe uma contagem de itens que pertencem às seguintes categorias:
+- **Confidencial**: são itens que têm um rótulo [de](/microsoft-365/compliance/sensitivity-labels) confidencialidade da Microsoft aplicado a eles. Por exemplo, um documento do Word com um rótulo "Altamente Confidencial". 
+- **Dados de várias pessoas**: esses itens contêm os dados pessoais de mais de uma pessoa. Se você quiser incluir esses itens como parte do pacote de dados final, precisará reexamar os dados irrelevantes nos arquivos. Consulte [a Etapa 3: Examinar os dados](#step-3-review-data) abaixo para obter detalhes. Observe que, para que Priva identifique itens com dados de várias pessoas, sua organização precisa configurar a correspondência de dados para solicitações [de direitos de entidade](subject-rights-requests-data-match.md).
+
+**Como localizar seus itens de prioridade:**
+
+Primeiro, verifique se você habilitou sua exibição deles em sua  tabela de itens de dados coletados seguindo as etapas abaixo:
+
+- Na guia **Dados coletados** , selecione **Personalizar colunas** na parte superior da lista de itens.
+- No painel **Editar colunas** do submenu, coloque uma verificação ao lado de **Tipos de prioridade**.
+- Selecione **Aplicar**. Sua lista de itens agora terá uma coluna **Tipos de** prioridade.
+
+Agora você pode identificar os itens de prioridade e encontrá-los classificando a coluna **tipo** Prioridade para agrupar tipos semelhantes.
 
 ### <a name="understand-progress-stages"></a>Entender os estágios de progresso
 
@@ -147,7 +170,7 @@ Você também pode usar a  opção Compartilhar no canto superior direito de uma
 
 Quando você tiver executado todas as ações necessárias para resolver sua solicitação de direitos de assunto, selecione **Fechar a solicitação**. Isso cria o relatório final, que pode ser encontrado na **guia Relatórios**. A conclusão pode levar algum tempo, dependendo do número de arquivos na solicitação.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para saber mais sobre como trabalhar com relatórios e concluir solicitações de direitos de entidade, consulte [Gerar relatórios e atender a uma solicitação de direitos de assunto](subject-rights-requests-reports.md).
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal

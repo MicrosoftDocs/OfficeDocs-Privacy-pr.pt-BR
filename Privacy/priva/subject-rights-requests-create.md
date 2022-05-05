@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como criar uma nova solicitação de direitos de entidade no Microsoft Priva.
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930602"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059725"
 ---
 # <a name="create-a-subject-rights-request"></a>Criar uma solicitação de direitos de entidade
 
@@ -38,6 +38,21 @@ As Solicitações de Direitos de Assunto Priva dão suporte a três tipos difere
 2. **Exportação**: fornece um resumo e um arquivo exportado de itens de conteúdo que contêm as informações pessoais do titular dos dados. Esses são os itens revisados e marcados como **Incluídos** durante a revisão dos dados coletados pelas configurações de pesquisa.
 
 3. **Lista marcada para acompanhamento**: gera um resumo de todos os arquivos que foram marcados durante a revisão de dados que podem exigir ação adicional fora de Priva. Por exemplo, talvez seja necessário facilitar a exclusão das informações pessoais do titular dos dados de acordo com sua solicitação. Você pode exibir as marcas incluídas e configurar marcas personalizadas para sua organização nas [configurações de Priva](priva-settings.md).
+
+## <a name="getting-started-with-your-first-request"></a>Introdução à sua primeira solicitação
+
+Quando você inicia uma avaliação ou assinatura de Solicitações de Direitos de Entidade, oferecemos uma configuração simples e inicial para sua primeira solicitação que usa as configurações padrão. Essa configuração pode ajudá-lo a explorar o fluxo de trabalho de solicitação de direitos de assunto e familiarizar-se com sua funcionalidade.
+
+Na primeira vez que chegar à página Solicitações de Direitos de Entidade, você verá uma faixa na parte superior com um botão **Introdução** assunto. Quando um usuário seleciona esse botão, um painel de submenu é exibido com as informações desse usuário preenchidas previamente nos campos de nome e email e mostra todas as configurações padrão.
+
+**Explorar a funcionalidade de solicitação** com suas informações: experimentar uma solicitação de direitos de assunto com base em suas próprias informações pode ajudá-lo a obter familiaridade e conforto ao passar por cada estágio do processo. Você verá o que é uma pesquisa padrão e poderá praticar o refinamento de resultados ajustando as configurações de pesquisa. Na guia  Dados coletados, você pode examinar itens na área de visualização à direita e praticar a reação de texto, aplicar marcas, inserir anotações e marcar itens para incluir ou excluir para o relatório final (encontre detalhes em Examinar dados para uma solicitação de direitos de [assunto).](subject-rights-requests-data-review.md)
+
+- Você não precisa usar suas informações para criar sua primeira solicitação. Se você estiver pronto para iniciar uma solicitação para um titular dos dados, basta substituir seu nome e endereço de email com as informações do titular dos dados.
+
+Para aceitar todas as configurações e criar a solicitação, selecione **Criar**. O painel será fechado e você verá sua nova solicitação listada na página **Solicitações de Direitos de** Entidade. Para alterar qualquer uma das configurações padrão antes de criar a solicitação, selecione Editar detalhes da solicitação **, o** que o coloca no assistente de criação de solicitação [de direitos de assunto](#use-the-subject-rights-request-creation-wizard).
+
+> [!NOTE]
+> Qualquer solicitação que você criar contará para a sua avaliação ou a atribuição de assinatura paga, independentemente de quais informações do titular dos dados são usadas para a solicitação. O período de retenção de dados padrão de 30 dias se aplica após o fechamento da solicitação. Saiba como alterar [períodos de retenção para solicitações de direitos de entidade](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>Usar o assistente de criação de solicitação de direitos de entidade
 
@@ -94,7 +109,7 @@ Insira valores nos campos de texto para os nomes, apelidos, endereços de email 
 
 Selecione o  botão Adicionar condição para escolher entre um intervalo de condições para direcionar ainda mais sua pesquisa, incluindo nome do item, nomes de remetente e destinatário, tipo de dados pessoais e se o item foi compartilhado externamente fora da sua organização. Os campos de texto dão suporte a várias entradas separadas por ponto e vírgula. Quando terminar, selecione Avançar **para salvar as** configurações de pesquisa e o progresso para a configuração do tipo de solicitação.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Depois de criar sua solicitação, você a verá listada na página de solicitação de direitos de assunto. Para saber mais sobre como prosseguir com a revisão, consulte [Examinar dados e colaborar em solicitações](subject-rights-requests-data-review.md).
 
