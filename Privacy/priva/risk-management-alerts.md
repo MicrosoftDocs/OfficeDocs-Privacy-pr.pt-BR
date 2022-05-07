@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como gerenciar alertas e problemas gerados por partidas de política no Gerenciamento de Riscos de Privacidade da Microsoft Priva.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014381"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268324"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Investigar e corrigir alertas no Gerenciamento de Riscos de Privacidade
 
@@ -71,9 +71,9 @@ Para examinar o conteúdo associado a um problema, escolha a ação Revisar **co
 
 - **Notificar o** proprietário: notifique o proprietário do conteúdo sobre o problema detectado.
 
-- **Aplicar rótulo de retenção**: adicione um rótulo sobre a retenção de dados para este item. [Saiba mais sobre rótulos de retenção](/microsoft-365/compliance/create-apply-retention-labels).
+- **Aplicar rótulo de retenção**: adicione um rótulo para este item que possa reter, excluir ou reter e, em seguida, excluí-lo após um tempo especificado. [Saiba mais sobre rótulos de retenção](/microsoft-365/compliance/retention).
 
-- **Aplicar rótulo de confidencialidade**: adicione um rótulo sobre a confidencialidade dos dados deste item. [Saiba mais sobre rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels).
+- **Aplicar rótulo de confidencialidade**: adicione um rótulo para este item que identifique sua confidencialidade e, opcionalmente, adicione proteção que inclua marcações visuais e criptografia. [Saiba mais sobre rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels).
 
 - **Marcar como não uma correspondência**: identifique um resultado de pesquisa como um falso positivo para remover o item de conteúdo da consideração.
 
