@@ -16,41 +16,41 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como configurar permissões do Microsoft Priva e atribuir usuários a grupos de funções.
-ms.openlocfilehash: 14ae1b1b9ee1f1ccc8d3a1914f0d7308a8467f23
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+description: Saiba como configurar permissões Microsoft Priva e atribuir usuários a grupos de funções.
+ms.openlocfilehash: eca08327e2db909475dbf4c072b8f6843de3d57b
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930612"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678218"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-microsoft-priva"></a>Definir permissões de usuário e atribuir funções no Microsoft Priva
 
-Para conceder aos membros da sua organização permissões para usar o Microsoft Priva, atribua-os aos grupos de funções apropriados no portal de conformidade do Microsoft Purview.
+Para conceder aos membros da sua organização permissões para usar Microsoft Priva, atribua-os aos grupos de funções apropriados no portal de conformidade do Microsoft Purview.
 
 > [!NOTE]
-> No momento, a maioria das funções Priva é designada como "gerenciamento de privacidade". Veja abaixo uma lista completa. Funções específicas de Priva não aparecerão no Azure Active Directory.
+> A maioria Priva funções atualmente são designadas como "gerenciamento de privacidade". Veja abaixo uma lista completa. Funções específicas Priva não aparecerão no Azure Active Directory.
 
 ## <a name="sign-in-and-set-permissions"></a>Entrar e definir permissões
 
-1. Acesse o [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/) e selecione **Permissões** no painel de navegação esquerdo.  
-2. Na lista **suspensa Centro de conformidade** , selecione **Funções**. A lista completa de grupos de funções será exibida.
-3. Localize o grupo de funções ao qual você deseja adicionar um ou mais usuários e marque a caixa à esquerda do nome do grupo.
-4. No painel de submenu desse grupo, selecione **Editar** **no cabeçalho Membros** .  
-5. Selecione **Escolher membros**. Outra janela de submenu será exibida.
+1. Vá para o [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/) e selecione **Permissões** no painel de navegação esquerdo.  
+2. Na lista **suspensa Microsoft Purview soluções**, selecione **Funções**. A lista completa de grupos de funções será exibida.
+3. Localize o grupo de funções ao qual você deseja adicionar um ou mais usuários (consulte as descrições do grupo de funções abaixo) e marque a caixa à esquerda do nome do grupo.
+4. No painel de submenu desse grupo, no cabeçalho **Membros** , selecione **Editar**.  
+5. No painel de submenu, selecione **Escolher membros** no painel de navegação esquerdo. Outra janela de submenu será exibida.
 6. Selecione **+ Adicionar** para escolher um ou mais usuários para adicionar ao grupo.  
 7. Marque a caixa de seleção ao lado dos nomes que você deseja adicionar e, em seguida, selecione o **botão** Adicionar na parte inferior.  
 8. Quando terminar de atribuir usuários, selecione **Concluído****, Salve e** **Feche**.
 
 ## <a name="learn-more-about-role-groups-and-roles"></a>Saiba mais sobre grupos de funções e funções
 
-Dependendo da estrutura da sua equipe, você tem opções para atribuir usuários a grupos de funções específicos para gerenciar diferentes conjuntos de recursos priva. Os membros devem ser atribuídos a grupos de funções dependendo de quais tarefas precisam realizar e qual nível de acesso a arquivos é apropriado. Cada grupo de funções inclui uma ou mais funções. Essas funções podem pertencer a tarefas Específicas priva ou funções-chave que estão habilitadas ou restritas para os membros desse grupo. Diferentes usuários podem, portanto, ter diferentes níveis de visibilidade e acesso a determinados recursos priva.
+Dependendo da estrutura da sua equipe, você tem opções para atribuir usuários a grupos de funções específicos para gerenciar diferentes conjuntos de Priva recursos. Os membros devem ser atribuídos a grupos de funções dependendo de quais tarefas precisam realizar e qual nível de acesso a arquivos é apropriado. Cada grupo de funções inclui uma ou mais funções. Essas funções podem pertencer a tarefas Priva específicas ou funções-chave que estão habilitadas ou restritas para os membros desse grupo. Usuários diferentes podem, portanto, ter diferentes níveis de visibilidade e acesso a determinados Priva recursos.
 
 Os grupos de funções podem ser personalizados, se necessário. Para evitar a perda acidental de acesso, é recomendável criar uma cópia do grupo de funções existente que você deseja personalizar, dando à cópia um nome identificável, fazendo e verificando suas alterações no novo grupo e atribuindo pessoas a ele conforme apropriado.
 
 ## <a name="privacy-management-role-group"></a>Grupo de funções de Gerenciamento de Privacidade
 
-Esse grupo contém todas as funções de permissão Priva em um único grupo. Esse grupo de funções pode ser uma boa opção para organizações em que o mesmo indivíduo pode executar todas as tarefas. Fornecer associação a esse grupo de funções concederá a essa conta acesso completo a todos os recursos do Priva para os quais você tem uma licença.
+Esse grupo contém todas as Priva de permissão em um único grupo. Esse grupo de funções pode ser uma boa opção para organizações em que o mesmo indivíduo pode executar todas as tarefas. Fornecer associação a esse grupo de funções concederá a essa conta acesso completo a todos os recursos Priva para os quais você tem uma licença.
 
 É recomendável garantir que sempre haja pelo menos um membro ativo desse grupo.
 
@@ -59,23 +59,23 @@ As funções incluem:
 - Gerenciamento de Casos  
 - Visualizador de Conteúdo de Classificação de Dados  
 - Visualizador de Lista de Classificação de Dados  
-- Administrador de Gerenciamento de Privacidade  
+- Gerenciamento de privacidade Administração  
 - Análise de Gerenciamento de Privacidade  
 - Investigação de Gerenciamento de Privacidade  
 - Contribuição Permanente do Gerenciamento de Privacidade  
 - Contribuição Temporária do Gerenciamento de Privacidade  
 - Visualizador de Gerenciamento de Privacidade  
-- Administrador de Solicitação de Direitos de Entidade  
+- Solicitação de Direitos da Entidade Administração  
 - View-Only caso
 
 ## <a name="privacy-management-administrators-role-group"></a>Grupo de função Administradores de Gerenciamento de Privacidade
 
-Os membros desse grupo de funções têm amplo acesso às funções Priva, incluindo a criação, leitura, atualização e exclusão de políticas de gerenciamento de risco de privacidade, solicitações de direitos de entidade, permissões e configurações.
+Os membros desse grupo de funções têm amplo acesso Priva funções, incluindo a criação, leitura, atualização e exclusão de políticas de gerenciamento de risco de privacidade, solicitações de direitos de entidade, permissões e configurações.
 
 As funções incluem:
 
 - Gerenciamento de Casos  
-- Administrador de Gerenciamento de Privacidade  
+- Gerenciamento de privacidade Administração  
 - View-Only caso
 
 ## <a name="privacy-management-analysts-role-group"></a>Grupo de função Analistas de Gerenciamento de Privacidade
@@ -115,7 +115,7 @@ Os membros desse grupo têm acesso completo para administrar e criar solicitaç�
 
 As funções incluem:
 
-- Administrador de Solicitação de Direitos de Entidade
+- Solicitação de Direitos da Entidade Administração
 
 ## <a name="privacy-management-contributors-role-group"></a>Grupo de função Colaboradores do Gerenciamento de Privacidade
 
@@ -128,4 +128,4 @@ As funções incluem:
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
-[Aviso de isenção de responsabilidade legal da Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva aviso de isenção de responsabilidade legal](priva-disclaimer.md)
