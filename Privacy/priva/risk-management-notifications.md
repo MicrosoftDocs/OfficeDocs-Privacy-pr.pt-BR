@@ -1,5 +1,5 @@
 ---
-title: Enviar notificações do usuário no Gerenciamento de Riscos de Privacidade
+title: Notificações do usuário no Gerenciamento de Riscos de Privacidade
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como notificar os proprietários de conteúdo sobre correspondências de política encontradas pelo Gerenciamento de Risco de Privacidade da Microsoft Priva e como eles podem usar essas notificações por email para corrigir problemas.
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Saiba como notificar os proprietários de conteúdo sobre correspondências de política encontradas pelo Gerenciamento de risco de privacidade Microsoft Priva e como eles podem usar essas notificações por email para corrigir problemas.
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014371"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851646"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>Notificações do usuário no Gerenciamento de Riscos de Privacidade
 
@@ -48,7 +48,7 @@ Antes de configurar sua política, decida sobre a URL de treinamento que você d
 Você pode configurar notificações por email para todos os tipos de política ao criar uma nova política ou editar uma política existente. Essas configurações são encontradas na **página Resultados** do assistente de criação de política. Visite [Definir resultados: notificações do usuário e dicas](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) para as instruções completas.
 
 > [!NOTE]
-> A capacidade geral do Gerenciamento de Riscos de Privacidade para enviar notificações por email é controlada em Priva **Configurações**. Ele está habilitado por padrão. Desativar essa configuração interromperá todos os emails mesmo que as notificações tenham sido configuradas em um nível de política individual. Saiba mais sobre as [configurações de email de notificação do usuário](priva-settings.md#user-notification-emails).
+> A funcionalidade geral do Gerenciamento de Riscos de Privacidade para enviar notificações por email é controlada Priva **Configurações**. Ele está habilitado por padrão. Desativar essa configuração interromperá todos os emails mesmo que as notificações tenham sido configuradas em um nível de política individual. Saiba mais sobre as [configurações de email de notificação do usuário](priva-settings.md#user-notification-emails).
 
 ## <a name="send-notifications-in-teams"></a>Enviar notificações no Teams
 
@@ -77,4 +77,4 @@ As configurações de notificação agora estarão em vigor para essa política.
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
-[Aviso de isenção de responsabilidade legal da Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva aviso de isenção de responsabilidade legal](priva-disclaimer.md)

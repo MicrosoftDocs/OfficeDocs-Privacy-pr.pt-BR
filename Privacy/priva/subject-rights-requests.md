@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre solicitações de direitos de assunto priva
+title: Saiba mais sobre Solicitações de direitos do titular Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,48 +15,48 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: A solução Solicitações de Direitos de Entidade no Microsoft Priva ajuda você a encontrar dados pessoais e colaborar na revisão de conteúdo e na criação de relatórios.
-ms.openlocfilehash: 37ee3fc795559d216a7a8cd620cff2c3ca689c2b
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+description: A solução Solicitações de Direitos de Assunto Microsoft Priva ajuda você a encontrar dados pessoais e colaborar na revisão de conteúdo e na criação de relatórios.
+ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930622"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851676"
 ---
-# <a name="learn-about-priva-subject-rights-requests"></a>Saiba mais sobre solicitações de direitos de assunto priva
+# <a name="learn-about-priva-subject-rights-requests"></a>Saiba mais sobre Solicitações de direitos do titular Priva
 
-De acordo com determinados regulamentos de privacidade em todo o mundo, indivíduos (ou titulares de *dados) podem* fazer solicitações para revisar ou gerenciar os dados pessoais sobre si mesmos que as empresas coletaram. Esses pedidos são às vezes também chamados de Solicitações do titular dos dados (DSRs), Solicitações de acesso ao titular dos dados (DSARs), ou Solicitações de direitos do consumidor. Para empresas que armazenam grandes quantidades de informações, encontrar os dados relevantes pode ser uma tarefa formidável.
+Várias regulamentações de privacidade em todo o mundo concedem a indivíduos ou titulares de dados o direito de fazer solicitações para revisar ou gerenciar os dados pessoais que as empresas coletaram sobre eles. Essas solicitações de direitos de entidade também são chamadas de DSRs (solicitações de titulares de dados), DSARs (solicitações de acesso do titular dos dados) ou solicitações de direitos do consumidor. Para empresas que armazenam grandes quantidades de informações, encontrar os dados relevantes pode ser uma tarefa formidável. Atender às solicitações, para a maioria das organizações, é um processo altamente manual e demorado.
 
-O Microsoft Priva pode ajudá-lo a lidar com essas consultas por meio da solução solicitações de direitos de assunto. Ele fornece recursos de fluxo de trabalho, automação e colaboração para ajudá-lo a pesquisar dados do assunto, examinar suas descobertas, coletar os arquivos apropriados e produzir relatórios.
+A Solicitações de direitos do titular Microsoft Priva solução foi projetada para ajudar a aliviar a complexidade e o período de tempo envolvidos na resposta a consultas de titulares de dados. Fornecemos automação, insights e fluxos de trabalho para ajudar as organizações a atender às solicitações com mais confiança e eficiência.
 
-## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Como Priva dá suporte ao cumprimento da solicitação de direitos de entidade
+## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Como Priva suporte ao cumprimento de solicitação de direitos de entidade
 
-O ciclo de solicitação de direitos de entidade começa com a solicitação de um indivíduo para sua organização. Depois de recebido, você pode usar as funcionalidades de Priva para coletar esses dados, colaborar, revisar e criar relatórios. Em seguida, você pode informar o titular dos dados sobre suas descobertas e executar outras ações necessárias fora de Priva para atender à solicitação, como a exclusão de dados. Para ajudar a gerenciar e automatizar seus fluxos de trabalho ao longo do caminho, você também pode usar modelos Power Automate integrados.
+As ferramentas de automação e de fluxo de trabalho robustas são tecidas em toda a solução de Solicitações de Direitos de Entidade. Depois de criar uma solicitação no sistema, assumiremos o trabalho de identificar e coletar dados e fornecer ferramentas para facilitar a análise colaborativa.
 
-### <a name="create-requests-and-collect-data"></a>Criar solicitações e coletar dados
+### <a name="immediate-kickoff-of-data-evaluation"></a>Início imediato da avaliação de dados
 
-Priva fornece opções de pesquisa avançadas para localizar dados relacionados ao assunto dos dados no conteúdo que sua organização armazena Microsoft 365. Ele também ajuda a priorizar itens a serem revisados dentro dos dados coletados para essas solicitações. Priva está ciente dos rótulos de confidencialidade do Microsoft Purview Proteção de Informações, que indicam conteúdo potencialmente confidencial e pode exigir revisão especial e sinaliza itens com esses rótulos. Além disso, Priva pode detectar e sinalizar itens que podem conter os dados de várias pessoas, em que talvez seja necessário reabilitar o conteúdo antes de fornecê-lo ao titular dos dados.
+Priva usa os recursos fundamentais do Microsoft 365 para identificar tipos de dados pessoais nos dados da sua organização. Assim que você cria uma solicitação, a solução imediatamente começa a trabalhar identificando os arquivos, emails, sites e chats que contêm os dados pessoais do titular dos dados. Recuperaremos os itens de conteúdo dentro de algumas horas, dependendo da quantidade de dados. Se esperarmos encontrar um alto volume, forneceremos a você a chance de refinar seus parâmetros de pesquisa antes de coletarmos os dados.
 
-Para saber mais, confira [Criar uma solicitação de direitos de assunto](subject-rights-requests-create.md).
+### <a name="help-in-prioritizing-content-to-review"></a>Ajuda na priorização do conteúdo a ser revisado
 
-### <a name="data-matching"></a>Correspondência de dados
+Talvez seja necessário examinar uma grande quantidade de dados coletados para a solicitação do titular dos dados. Fornecemos insights sobre a tela de detalhes de cada solicitação e sugerimos quais itens priorizar para revisão. Os itens de prioridade incluem arquivos que podem ser confidenciais ou itens que contêm mais de dados pessoais de uma pessoa. Esses itens realçam o conteúdo que pode precisar de redação ou outras considerações de tratamento especial.
 
-Com a correspondência de dados, você pode permitir que Priva identifique os titulares dos dados com base nos valores de dados fornecidos exatos. Carregar informações desse tipo pode ajudar a aumentar a precisão da localização do conteúdo e simplifica a necessidade de fornecer campos manualmente durante a criação da solicitação de direitos de assunto. Ele também fornece contexto dentro de solicitações de direitos de entidade e para o bloco Visão geral que mostra seus itens com mais conteúdo de assunto de dados. Para saber mais, confira [Correspondência de dados para solicitações de direitos de entidade](subject-rights-requests-data-match.md).
+### <a name="built-in-teams-collaboration-and-editing-tools-to-facilitate-data-review"></a>Ferramentas internas Teams colaboração e edição para facilitar a revisão de dados
 
-### <a name="review-data-and-collaborate-on-requests"></a>Examinar dados e colaborar em solicitações
+Assim que você criar a solicitação, um canal Teams dedicado será configurado automaticamente para essa solicitação. Adicionar stakeholders relevantes como colaboradores de solicitação os convidará para o chat para ajudar a analisar e tomar decisões sobre os itens recuperados. Usando ferramentas de redação internas dentro da solicitação, os colaboradores podem marcar arquivos em uma tela de revisão ao lado da lista de itens. Se determinado conteúdo exigir uma ação de acompanhamento adicional, você poderá aplicar marcas definidas por sua organização para ajudar a identificar os itens e executar a ação posteriormente.
 
-Depois que os dados forem coletados, você poderá avaliar os resultados, selecionar os itens mais relevantes a serem incluídos em seus relatórios e exportações e fazer as redação necessárias. Isso pode ser feito de forma colaborativa entre os membros da equipe dentro do pipeline de Solicitações de Direitos de Entidade.
+### <a name="automatically-generated-reports"></a>Relatórios gerados automaticamente
 
-Para saber mais, confira [Examinar dados de uma solicitação de direitos de entidade](subject-rights-requests-data-review.md).
+Depois de terminar de examinar os dados e decidir o que incluir para a solicitação, geraremos relatórios para você. Os relatórios incluem qualquer pacote de dados relevante que você enviará ao titular dos dados, logs de auditoria e um resumo dos arquivos marcados para que você possa concluir todas as ações de acompanhamento necessárias.
 
-### <a name="fulfill-requests"></a>Atender às solicitações
+### <a name="solutions-that-extend-and-integrate-with-your-subject-request-strategy"></a>Soluções que estendem e se integram à sua estratégia de solicitação de assunto
 
-Priva oferece ferramentas para criar relatórios e coletar arquivos para enviar de volta aos seus titulares de dados. Para saber mais, confira [Gerar relatórios e atender a uma solicitação de direitos de assunto](subject-rights-requests-reports.md).
+Estenda os recursos de automação usando um dos modelos de Power Automate internos para configurar fluxos para tarefas comuns, como configurar lembretes de calendário ou criar registros de suas solicitações no ServiceNow. Você também pode usar a API Microsoft 365 solicitação de direitos de entidade para introduzir automação à sua estratégia de direitos de entidade existente.
 
-### <a name="automate-tasks"></a>Automatizar tarefas
+## <a name="getting-started"></a>Introdução
 
-Você pode criar e automatizar processos de fluxo de trabalho em Priva com modelos de Power Automate internos. Esses modelos dão suporte a tarefas como arquivar tíquetes no ServiceNow ou configurar convites de calendário. Para saber mais, confira [Automatizar tarefas em Solicitações de Direitos de Entidade](subject-rights-requests-automate.md).
+Visite [Criar uma solicitação de direitos de assunto](subject-rights-requests-create.md) para saber como se declarar com sua primeira solicitação.
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
-[Aviso de isenção de responsabilidade legal da Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva aviso de isenção de responsabilidade legal](priva-disclaimer.md)

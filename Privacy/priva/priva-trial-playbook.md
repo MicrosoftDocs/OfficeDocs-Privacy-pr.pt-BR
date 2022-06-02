@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a Microsoft Priva, confira as ações recomendadas a serem tomadas durante o período de avaliação e examine os links para documentação importante.
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678198"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851686"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Guia estratégico de avaliação: Microsoft Priva
 
@@ -164,10 +164,10 @@ Depois de criar uma solicitação de direitos de Priva, você usará suas entrad
 Depois de concluir a revisão de dados para uma solicitação de direitos de entidade, você pode passar para solicitar o cumprimento.
 
 1. [Preparar relatórios finais para o titular dos dados](subject-rights-requests-reports.md)
-1. [Integrar com soluções de parceiros](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [Integrar e estender por meio do Microsoft API do Graph e Power Automate](subject-rights-requests-automate.md)
 1. [Gerenciar retenção de dados](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>Automatizar tarefas de solicitações de direitos de entidade
+## <a name="extend-with-power-automate"></a>Estender com Power Automate
 
 Habilite Power Automate fluxos para Priva automatizar tarefas importantes para casos e usuários, como criar tíquetes no ServiceNow ou adicionar lembretes de calendário sobre datas de conclusão.
 
