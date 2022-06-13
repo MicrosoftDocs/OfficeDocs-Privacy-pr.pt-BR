@@ -1,5 +1,5 @@
 ---
-title: Gerar relatórios para atender a uma solicitação de direitos de entidade
+title: Gerar relatórios e fechar uma solicitação
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como gerenciar os pacotes de dados criados pelo Microsoft Priva para solicitações de direitos de entidade e atender à solicitação ao titular dos dados.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851656"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046685"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>Gerar relatórios para atender a uma solicitação de direitos de entidade
+# <a name="generate-reports-and-close-a-request"></a>Gerar relatórios e fechar uma solicitação
 
-Depois de concluir a revisão de dados para uma solicitação de direitos de entidade Microsoft Priva, você pode seguir em frente para atender à solicitação. Priva criará relatórios e coletará os arquivos marcados como **Incluir durante** o processo de revisão de dados. Os arquivos selecionados desses pacotes de dados podem ser enviados ao titular dos dados para concluir a solicitação.
+**Neste artigo**: entenda os tipos de relatórios gerados em Solicitações de Direitos de Entidade. Saiba mais sobre os períodos de retenção para os dados coletados e encontre instruções para fornecer resultados ao titular dos dados e fechar a solicitação.
+
+Depois de concluir a revisão de dados para uma solicitação de direitos de entidade, o próximo estágio é gerar os relatórios necessários para atender à solicitação. Priva criará relatórios e coletará os arquivos marcados como **Incluir durante** o processo de revisão de dados. Os arquivos selecionados desses pacotes de dados podem ser enviados ao titular dos dados para concluir a solicitação.
 
 ## <a name="understanding-reports"></a>Noções básicas sobre relatórios
 
@@ -37,7 +39,7 @@ Os relatórios são divididos em duas seções:
    > Um pacote de dados só será gerado se você marcar itens como **Incluir durante** a revisão de dados.
 
    > [!IMPORTANT]
-   > Um pacote de dados só será gerado para tipos **de solicitações de Exportação** e Acesso. Um pacote de dados não será gerado para uma lista **marcada para solicitação de** acompanhamento. Examine os detalhes sobre os [tipos de solicitação de direitos de entidade](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+   > Um pacote de dados só será gerado para tipos **de solicitações de Exportação** e Acesso. Um pacote de dados não será gerado para uma lista **marcada para solicitação de** acompanhamento. Examine os detalhes sobre os [tipos de solicitação de direitos de entidade](subject-rights-requests-create.md#request-types).
 
 2. **Relatórios para uso interno**: esses relatórios são para os registros internos da sua organização relacionados à solicitação de direitos de entidade. Eles incluem um log de auditoria e uma lista de todos os arquivos aos quais você aplicou marcas durante a revisão de dados para acompanhar ou executar outras ações.
 
@@ -102,6 +104,12 @@ O período de retenção de dados é definido Priva **Configurações** aplica-s
 4. Selecione **Salvar** para salvar suas configurações.
 
 Verifique se os períodos de retenção de dados escolhidos estão em conformidade com as políticas e obrigações legais da sua organização.
+
+## <a name="close-the-request"></a>Fechar a solicitação
+
+Quando você tiver executado todas as ações necessárias relacionadas à solicitação de direitos de entidade, marque a solicitação como  fechada selecionando Fechar a solicitação no canto superior direito da página de detalhes da solicitação. Uma solicitação fechada significa que ela não está mais ativa e indica que nenhum trabalho adicional é necessário para atender à solicitação original do titular dos dados para sua organização.
+
+As solicitações fechadas não podem ser reabertos, mas você pode retornar à solicitação para exibir detalhes e anotações da solicitação. Os relatórios para a solicitação são retidos de acordo com o período de [retenção estabelecido](#retention-periods-for-reports-and-data).
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 

@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como criar uma política de superexposure de dados no Gerenciamento de Riscos de Privacidade da Microsoft Priva para identificar e proteger dados pessoais que podem estar super acessíveis.
-ms.openlocfilehash: a0c87a84a78206862d9a79e1c16d17a90de5f040
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Saiba como criar uma política de superexpover de dados Gerenciamento de risco de privacidade Microsoft Priva identificar e proteger dados pessoais que podem estar super acessíveis.
+ms.openlocfilehash: 6efb92ed5d1b79b0fc69beebd5788062b5687269
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014501"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046675"
 ---
 # <a name="data-overexposure-policies-in-privacy-risk-management"></a>Políticas de superexposição de dados no Gerenciamento de Riscos de Privacidade
 
@@ -39,7 +39,7 @@ A política de superexposição de dados padrão avalia dados pessoais em todos 
 
 Siga estas etapas para criar uma política de transferência de dados padrão:
 
-1. No [Centro de conformidade do Microsoft 365,](https://compliance.microsoft.com/) localize Priva Privacy Risk Management no painel de navegação esquerdo e selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Gerenciamento de risco de privacidade Priva navegação à esquerda e selecione **Políticas**.
 
 2. Selecione **Criar uma política** no canto superior direito da tela, que exibe um painel de submenu listando todas as opções de criação de política.
 
@@ -75,7 +75,7 @@ A opção de política personalizada é um processo guiado para criar uma nova p
 
 Conclua as etapas abaixo para criar uma nova política de superexposição de dados:
 
-1. No [Centro de conformidade do Microsoft 365,](https://compliance.microsoft.com/) localize Priva Privacy Risk Management no painel de navegação esquerdo e selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Gerenciamento de risco de privacidade Priva navegação à esquerda e selecione **Políticas**.
 
 2. Selecione o **botão Criar uma política** no canto superior direito da tela, que exibe um painel de submenu listando todas as opções de criação de política.
 

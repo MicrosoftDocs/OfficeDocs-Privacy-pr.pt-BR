@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A solução Solicitações de Direitos de Assunto Microsoft Priva ajuda você a encontrar dados pessoais e colaborar na revisão de conteúdo e na criação de relatórios.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851676"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046705"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Saiba mais sobre Solicitações de direitos do titular Priva
 
@@ -53,9 +53,9 @@ Depois de terminar de examinar os dados e decidir o que incluir para a solicita�
 
 Estenda os recursos de automação usando um dos modelos de Power Automate internos para configurar fluxos para tarefas comuns, como configurar lembretes de calendário ou criar registros de suas solicitações no ServiceNow. Você também pode usar a API Microsoft 365 solicitação de direitos de entidade para introduzir automação à sua estratégia de direitos de entidade existente.
 
-## <a name="getting-started"></a>Introdução
+## <a name="next-steps"></a>Próximas etapas
 
-Visite [Criar uma solicitação de direitos de assunto](subject-rights-requests-create.md) para saber como se declarar com sua primeira solicitação.
+Visite [Entender o fluxo de trabalho de solicitação e a página de detalhes](subject-rights-requests-workflow.md) para saber mais sobre as etapas de progresso na criação e no trabalho por meio de uma solicitação de direitos de assunto. Para começar com sua primeira solicitação, consulte [Criar uma solicitação de direitos de assunto](subject-rights-requests-create.md).
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 

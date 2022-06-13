@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como criar e gerenciar políticas no Gerenciamento de Riscos de Privacidade da Microsoft Priva para lidar com os dados pessoais da sua organização Microsoft 365.
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Saiba como criar e gerenciar políticas no Gerenciamento de risco de privacidade Microsoft Priva para lidar com os dados pessoais da sua organização em Microsoft 365.
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014491"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046605"
 ---
 # <a name="privacy-risk-management-policies"></a>Políticas de Gerenciamento de Riscos de Privacidade
 
@@ -43,7 +43,7 @@ O Gerenciamento de Riscos de Privacidade tem três modelos de política projetad
 
 Ao criar uma política diretamente de um modelo, a maioria das configurações será escolhida automaticamente para ajudá-lo a começar a trabalhar rapidamente. Siga estas etapas para criar uma política com configurações padrão usando um de nossos modelos:
 
-1. No centro [de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Priva Privacy Risk Management no painel de navegação esquerdo e selecione **Políticas**.
+1. No centro [de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Gerenciamento de risco de privacidade Priva navegação à esquerda e selecione **Políticas**.
 
 2. Selecione **Criar uma política** no canto superior direito da tela, que exibe um painel de submenu listando todas as opções de criação de política.
 
@@ -61,7 +61,7 @@ A opção de política personalizada é um processo guiado para criar uma polít
 
 Siga as etapas abaixo para criar uma política:
 
-1. No painel [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/), localize Priva Privacy Risk Management no painel de navegação esquerdo. No menu suspenso, selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Gerenciamento de risco de privacidade Priva navegação à esquerda. No menu suspenso, selecione **Políticas**.
 
 2. Selecione **Criar uma política**.
 
@@ -273,7 +273,7 @@ Você pode editar as configurações de uma política a qualquer momento, seja n
 
 Para editar uma política, siga as etapas abaixo:
 
-1. No painel [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/), localize Priva Privacy Risk Management no painel de navegação esquerdo. No menu suspenso, selecione **Políticas**.
+1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), localize Gerenciamento de risco de privacidade Priva navegação à esquerda. No menu suspenso, selecione **Políticas**.
 
 2. Selecione a política que você deseja editar de sua linha na página  Políticas, que abre a página de detalhes dessa política.
 
@@ -295,4 +295,4 @@ Depois que sua política estiver ativada e começar a gerar alertas, você desej
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
-[Aviso de isenção de responsabilidade legal da Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva aviso de isenção de responsabilidade legal](priva-disclaimer.md)
