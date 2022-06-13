@@ -30,11 +30,15 @@
   items:
     - name: Saiba mais sobre solicitações de direitos de entidade
       href: subject-rights-requests.md
-    - name: Criar solicitações
+    - name: Entender o fluxo de trabalho e as páginas de detalhes da solicitação
+      href: subject-rights-requests-workflow.md
+    - name: Criar solicitações e definir sua pesquisa
       href: subject-rights-requests-create.md
+    - name: Estimativa e recuperação de dados
+      href: subject-rights-requests-data-retrieval.md
     - name: Examinar dados e colaborar
       href: subject-rights-requests-data-review.md
-    - name: Gerar relatórios para atender solicitações
+    - name: Obter relatórios e fechar solicitações
       href: subject-rights-requests-reports.md
     - name: Integrar com a API do Microsoft Graph e o Power Automate
       href: subject-rights-requests-automate.md
