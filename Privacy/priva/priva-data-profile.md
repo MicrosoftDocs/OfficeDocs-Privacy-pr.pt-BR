@@ -16,44 +16,49 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba mais sobre a visão geral e o perfil de dados em Priva e como obter insights sobre os dados pessoais no ambiente de Microsoft 365 da sua organização.
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+description: Saiba mais sobre a visão geral e o perfil de dados no Priva e como obter insights sobre os dados pessoais no ambiente de Microsoft 365 da sua organização.
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059745"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060050"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Localizar e visualizar dados pessoais no Microsoft Priva
 
-O Microsoft Priva ajuda você a entender os dados que sua organização armazena automatizando a descoberta de ativos de dados pessoais e fornecendo visualizações de informações essenciais. Essas visualizações podem ser encontradas nas páginas de visão **geral** e **perfil de** dados. Você pode agir sobre os insights aqui para fortalecer a postura de privacidade da sua organização e reduzir o risco.
+Microsoft Priva ajuda você a entender os dados que sua organização armazena automatizando a descoberta de ativos de dados pessoais e fornecendo visualizações de informações essenciais. Essas visualizações podem ser encontradas nas páginas de visão **geral** e **perfil de** dados. Você pode agir sobre os insights aqui para fortalecer a postura de privacidade da sua organização e reduzir o risco.
 
-Para começar, acesse a seção Priva do [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/) e exiba estas páginas:
+Para começar, vá para a Priva do portal de conformidade do [Microsoft Purview](https://compliance.microsoft.com/) e exiba estas páginas:
 
 - **Visão** geral: fornece uma visão geral dos dados da sua organização Microsoft 365. Os administradores de privacidade podem monitorar tendências e atividades, identificar e investigar possíveis riscos envolvendo dados pessoais e implantar ações importantes, como gerenciamento de políticas ou ações de solicitação de direitos de entidade.
 - **Perfil de** dados: fornece um instantâneo dos dados pessoais que sua organização armazena Microsoft 365. Esta página ajuda você a visualizar onde residem os dados pessoais, quais tipos são os mais predominantes em sua organização e quantos tipos diferentes existem entre locais em seu Microsoft 365 ambiente. Você também pode explorar dados pessoais desse local.
 
-À medida que seus dados forem alterados e Priva fizer novas descobertas, as informações mostradas nessas páginas serão atualizadas. Observe que pode levar até 24 horas para que novos dados sejam representados nos gráficos.
+À medida que seus dados Priva novas descobertas, as informações mostradas nessas páginas serão atualizadas. Observe que pode levar até 24 horas para que novos dados sejam representados nos gráficos.
 
 ## <a name="explore-the-overview-page"></a>Explorar a página de visão geral
 
-A página de visão geral consiste em três seções principais. Os blocos na parte superior da página fornecem estatísticas recentes essenciais sobre seus dados. A seção de insights principais fornece oportunidades de investigação sobre tendências e áreas de interesse principal. Para obter mais perspectiva sobre seu ambiente de dados, consulte os gráficos de linha de tendência. Para saber mais sobre essas áreas, consulte as seções abaixo.
+A **Priva visão geral** está disponível para todos os Priva clientes. A página, exibida abaixo, consiste em três seções principais:
 
-![Página de visão geral de exemplo.](../media/priva-overview.png)
+1. [Os blocos](#top-tiles) na parte superior da página fornecem estatísticas recentes essenciais sobre seus dados. 
+2. A [seção Insights](#key-insights) principais fornece oportunidades de investigação sobre tendências e áreas de interesse principal.
+3. Os [gráficos de linha de tendência](#trendline-graphs) fornecem perspectivas adicionais sobre seu ambiente de dados.
+
+**Priva visão geral:**
+![ Página de visão geral de exemplo.](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>Blocos principais
 
 #### <a name="policy-matches-over-past-7-days"></a>A política corresponde aos últimos 7 dias
 
-Quando as políticas são definidas no Gerenciamento de Riscos de Privacidade de Priva, seus dados serão avaliados com base em suas políticas para determinadas condições que podem apresentar riscos de privacidade. As combinações de política indicam descobertas de dados que podem precisar de mais revisão ou correção. Este bloco mostra quantas partidas de política ocorreram nos últimos sete dias. As correspondeções serão exibidas aqui se as políticas estão ativadas ou em execução no modo de teste, para que você possa ver os resultados de todas as suas políticas ativas. Selecionar esse bloco levará você a uma exibição filtrada da página Políticas  de Gerenciamento de Risco de Privacidade, mostrando as políticas que tiveram uma correspondência nos últimos sete dias.
+Quando as políticas são definidas Gerenciamento de risco de privacidade Priva, seus dados serão avaliados com base em suas políticas para determinadas condições que podem apresentar riscos de privacidade. As combinações de política indicam descobertas de dados que podem precisar de mais revisão ou correção. Este bloco mostra quantas partidas de política ocorreram nos últimos sete dias. As correspondeções serão exibidas aqui se as políticas estão ativadas ou em execução no modo de teste, para que você possa ver os resultados de todas as suas políticas ativas. Selecionar esse bloco levará você a uma exibição filtrada da página Políticas  de Gerenciamento de Risco de Privacidade, mostrando as políticas que tiveram uma correspondência nos últimos sete dias.
 
 #### <a name="items-with-personal-data"></a>Itens com dados pessoais
 
-Para ver os recursos de descoberta automatizada da Priva no trabalho, examine os **Itens com o bloco de dados** pessoais. Este bloco mostra quantos novos itens que contêm dados pessoais com base em suas configurações foram descobertos no ambiente de Microsoft 365 da sua organização nos últimos sete dias. Selecionar esse bloco carregará uma exibição dos 100 itens mais recentes descobertos.
+Para ver Priva funcionalidades de descoberta automatizada no trabalho, examine os **Itens com o bloco de dados** pessoais. Este bloco mostra quantos novos itens que contêm dados pessoais com base em suas configurações foram descobertos no ambiente de Microsoft 365 da sua organização nos últimos sete dias. Selecionar esse bloco carregará uma exibição dos 100 itens mais recentes descobertos.
 
 #### <a name="subject-rights-requests"></a>Solicitações de direitos de entidade
 
-A página de visão geral inclui um bloco que mostra quantas solicitações de direitos de entidade foram criadas nos últimos sete dias. Um segundo bloco, se aplicável, mostra quantas solicitações estão vencidas com base nos prazos designados e pode precisar de atenção imediata. Selecionar esses blocos levará os usuários com as permissões apropriadas para a página de solicitação de direitos de entidade de Priva.
+A página de visão geral inclui um bloco que mostra quantas solicitações de direitos de entidade foram criadas nos últimos sete dias. Um segundo bloco, se aplicável, mostra quantas solicitações estão vencidas com base nos prazos designados e pode precisar de atenção imediata. Selecionar esses blocos levará os usuários com as permissões apropriadas para a página principal direitos do assunto.
 
 ### <a name="key-insights"></a>Principais insights
 
@@ -91,7 +96,7 @@ Essa área mostra um instantâneo de alertas ativos disparados por corresponde �
 
 #### <a name="personal-data-found-in-organization"></a>Dados pessoais encontrados na organização
 
-Esse grafo mostra tendências de quantos dados pessoais que correspondem às suas configurações foram descobertos ao longo do tempo em seu ambiente Microsoft 365 e onde estão localizados. Ele começará a ser preenchido depois que Priva estiver em execução por tempo suficiente e depois que o conteúdo com dados pessoais for encontrado em SharePoint, OneDrive, Teams e/ou Exchange.
+Esse grafo mostra tendências de quantos dados pessoais que correspondem às suas configurações foram descobertos ao longo do tempo em seu ambiente Microsoft 365 e onde estão localizados. Ele começará a ser preenchido depois que Priva estiver em execução por tempo suficiente e depois que o conteúdo com dados pessoais for encontrado no SharePoint, OneDrive, Teams e/ou Exchange.
 
 #### <a name="data-transfers-detected-in-organization"></a>Transferências de dados detectadas na organização
 
@@ -125,9 +130,10 @@ Essa exibição de mapa ajuda você a visualizar seu volume de solicitações de
 
 ## <a name="explore-the-data-profile-page"></a>Explorar a página de perfil de dados
 
-A página de perfil de dados em Priva fornece uma exibição de instantâneo dos dados pessoais que sua organização armazena Microsoft 365 e onde eles residem. Ele também fornece informações sobre os tipos de dados armazenados. Os blocos principais incluem o seguinte.
+A **página Perfil de** dados, exibida abaixo, fornece uma exibição de instantâneo dos dados pessoais que sua organização armazena Microsoft 365 e onde eles residem. Ele também fornece informações sobre os tipos de dados armazenados. Os gráficos na página são descritos abaixo.
 
-![Página de perfil de dados de exemplo.](../media/priva-dataprofile.png)
+**Priva perfil de dados:**
+![ Página de perfil de dados de exemplo.](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>Instâncias de tipo de dados pessoais detectadas no Microsoft 365
 
@@ -149,4 +155,4 @@ Selecionar **Explorar** em qualquer bloco de perfil de dados abrirá o explorado
 
 ## <a name="legal-disclaimer"></a>Aviso de isenção de responsabilidade legal
 
-[Aviso de isenção de responsabilidade legal da Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva aviso de isenção de responsabilidade legal](priva-disclaimer.md)

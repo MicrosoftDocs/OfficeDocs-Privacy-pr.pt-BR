@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda as etapas do fluxo de trabalho e a página de detalhes da solicitação Solicitações de direitos do titular Microsoft Priva.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046721"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060077"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>Entender o fluxo de trabalho e as páginas de detalhes da solicitação
 
@@ -45,9 +45,15 @@ Cada solicitação passa por vários estágios. Alguns estágios progridem autom
 
 ## <a name="understanding-the-request-details-page"></a>Noções básicas sobre a página de detalhes da solicitação
 
-Selecione **Solicitações de direitos do titular Priva** navegação à esquerda do portal de conformidade do Microsoft Purview para acessar as solicitações criadas pela sua organização e exibir seu status. Os cartões de status na página principal solicitações de direitos de entidade mostram o número de solicitações ativas, fechadas e vencidas e os principais tipos de solicitação. A tabela abaixo dos cartões de status lista todas as solicitações criadas pela sua organização, com a solicitação criada mais recentemente na parte superior.
+Selecione **Solicitações de direitos do titular Priva** navegação à esquerda do portal de conformidade do Microsoft Purview para acessar as solicitações criadas pela sua organização e exibir seu status. Os cartões de status na página principal Solicitações de Direitos de Entidade, exibida abaixo, mostram o número de solicitações ativas, fechadas e vencidas e os principais tipos de solicitação. A tabela abaixo dos cartões de status lista todas as solicitações criadas pela sua organização, com a solicitação criada mais recentemente na parte superior.
 
-Para abrir a página de detalhes de uma solicitação, selecione o nome da solicitação na tabela. Aqui você pode saber mais sobre as propriedades da solicitação, os resultados da pesquisa e o status da solicitação. Esta página se tornará seu hub para trabalhar e colaborar no gerenciamento dos arquivos encontrados, na criação de relatórios e exportações e na conclusão da solicitação.
+**Página principal solicitações de direitos de entidade:** 
+![ Página principal solicitações de direitos de entidade.](../media/priva-srr-overview.png)
+
+Para abrir a página de detalhes de uma solicitação, selecione o nome da solicitação na tabela. Aqui você pode saber mais sobre as propriedades da solicitação, os resultados da pesquisa e o status da solicitação. A página de detalhes, exibida abaixo, se tornará seu hub para trabalhar e colaborar no gerenciamento dos arquivos encontrados, na criação de relatórios e exportações e na conclusão da solicitação.
+
+**Uma página de detalhes da solicitação:**
+![ Página de detalhes da solicitação de direitos de entidade.](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>Guia Visão geral
 
