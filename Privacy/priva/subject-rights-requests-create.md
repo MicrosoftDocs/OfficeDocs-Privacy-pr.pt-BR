@@ -16,18 +16,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como criar uma nova solicitação de direitos de entidade e definir configurações de pesquisa Solicitações de direitos do titular Microsoft Priva.
-ms.openlocfilehash: 7314fefa370b24bcb215a99b67b74c13b8b27613
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: bd67b68a1c0d017b8f0d667fb3e4ad21726cc976
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046635"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166650"
 ---
 # <a name="create-a-request-and-define-search-settings"></a>Criar uma solicitação e definir configurações de pesquisa
 
 **Neste artigo**: saiba como criar uma solicitação no Priva para começar a atender a uma solicitação de direitos de entidade. Entenda as configurações de pesquisa para recuperação de dados e como refinar sua pesquisa.
 
-Os usuários que têm uma função no grupo de função Administradores de Solicitação de Direitos de Entidade que não sejam somente exibição [(consulte](priva-permissions.md) Priva permissões) podem criar uma solicitação em Solicitações de Direitos de Entidade. Um processo guiado orienta você pelas configurações para localizar dados pessoais sobre um titular de dados e iniciar o processo de atendimento à solicitação.
+Os usuários que têm uma função no grupo de função Administradores de Solicitação de Direitos de Entidade que não seja a função somente exibição (consulte [Priva](priva-permissions.md) permissões) podem criar uma solicitação. Há duas maneiras de criar uma solicitação:
+
+- A partir [de um](#quick-setup-use-a-template-with-default-settings) modelo, uma opção rápida "fora de caixa" que usa configurações padrão personalizadas; Ou
+- A [opção](#custom-setup-guided-process-to-choose-all-settings) personalizada, que é um processo guiado para percorrer todas as configurações.
+
+> [!TIP]
+> Na primeira vez que você visitar a solução **Solicitações de Direitos** de Entidade, oferecemos uma maneira simplificada de criar uma solicitação e explorar recursos. Consulte [Introdução à sua primeira solicitação](#getting-started-with-your-first-request) abaixo.
 
 ## <a name="request-types"></a>Tipos de solicitação
 
@@ -37,7 +43,7 @@ Solicitações de direitos do titular Priva dá suporte a três tipos diferentes
 
 2. **Exportação**: fornece um resumo e um arquivo exportado de itens de conteúdo que contêm as informações pessoais do titular dos dados. Esses são os itens revisados e marcados como **Incluídos** durante a revisão dos dados coletados pelas configurações de pesquisa.
 
-3. **Lista marcada para** acompanhamento: gera um resumo de todos os arquivos que foram marcados durante a revisão de dados que podem exigir ação adicional fora do Priva. Por exemplo, talvez seja necessário facilitar a exclusão das informações pessoais do titular dos dados de acordo com sua solicitação. Você pode exibir as marcas incluídas e configurar marcas personalizadas para sua organização em Priva [configurações](priva-settings.md).
+3. **Lista marcada para** acompanhamento: gera um resumo de todos os arquivos que foram marcados durante a revisão de dados que podem exigir mais ação fora do Priva. Por exemplo, talvez seja necessário facilitar a exclusão das informações pessoais do titular dos dados de acordo com sua solicitação. Você pode exibir as marcas incluídas e configurar marcas personalizadas para sua organização em Priva [configurações](priva-settings.md).
 
 ## <a name="getting-started-with-your-first-request"></a>Introdução à sua primeira solicitação
 
@@ -45,44 +51,90 @@ Quando você inicia uma avaliação ou assinatura de Solicitações de Direitos 
 
 Na primeira vez que chegar à página Solicitações de Direitos de Entidade, você verá uma faixa na parte superior com um botão **Introdução** assunto. Quando um usuário seleciona esse botão, um painel de submenu é exibido com as informações desse usuário preenchidas previamente nos campos de nome e email e mostra todas as configurações padrão.
 
-**Explorar a funcionalidade de solicitação** com suas informações: experimentar uma solicitação de direitos de assunto com base em suas próprias informações pode ajudá-lo a obter familiaridade e conforto ao passar por cada estágio do processo. Você verá o que uma pesquisa padrão produz e pode praticar o refinamento de resultados ajustando as configurações de pesquisa. Na guia  Dados coletados, você pode examinar itens na área de visualização à direita e praticar a reação de texto, aplicar marcas, inserir anotações e marcar itens para incluir ou excluir para o relatório final (encontre detalhes em Examinar dados para uma solicitação de direitos de [assunto).](subject-rights-requests-data-review.md)
+**Explorar a funcionalidade de solicitação** com suas informações: experimentar uma solicitação de direitos de assunto com base em suas próprias informações pode ajudá-lo a obter familiaridade e conforto ao passar por cada estágio do processo. Você verá o que uma pesquisa padrão retornará e poderá praticar o refinamento dos resultados ajustando as configurações de pesquisa. Na guia  Dados coletados, você pode examinar itens na área de visualização à direita e praticar a reação de texto, aplicar marcas, inserir anotações e marcar itens para incluir ou excluir para o relatório final (encontre detalhes em Examinar dados para uma solicitação de direitos de [assunto).](subject-rights-requests-data-review.md)
 
 - Você não precisa usar suas informações para criar sua primeira solicitação. Se você estiver pronto para iniciar uma solicitação para um titular dos dados, substitua seu nome e endereço de email com as informações do titular dos dados.
 
-Para aceitar todas as configurações e criar a solicitação, selecione **Criar**. O painel será fechado e você verá sua nova solicitação listada na página **Solicitações de Direitos de** Entidade. Para alterar qualquer uma das configurações padrão antes de criar a solicitação, selecione Editar detalhes da solicitação **, o** que o coloca no assistente de criação de solicitação [de direitos de assunto](#create-a-request).
+Para aceitar todas as configurações e criar a solicitação, selecione **Criar**. O painel será fechado e você verá sua nova solicitação listada na página **Solicitações de Direitos de** Entidade. Para alterar qualquer uma das configurações padrão antes de criar a solicitação, selecione Editar detalhes da solicitação **, o** que o coloca no assistente de criação de solicitação [de direitos de assunto](#custom-setup-guided-process-to-choose-all-settings).
 
 > [!NOTE]
 > Qualquer solicitação que você criar contará para a sua avaliação ou a atribuição de assinatura paga, independentemente de quais informações do titular dos dados são usadas para a solicitação. O período de retenção de dados padrão de 30 dias se aplica após o fechamento da solicitação. Saiba como alterar [períodos de retenção para solicitações de direitos de entidade](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
-## <a name="create-a-request"></a>Criar uma solicitação
+## <a name="quick-setup-use-a-template-with-default-settings"></a>Configuração rápida: usar um modelo com configurações padrão
 
-Siga as etapas abaixo para começar a atender a uma solicitação de direitos de entidade:
+Ao criar uma solicitação diretamente de um modelo, as configurações padrão destinam-se a ajudar você a começar a trabalhar rapidamente. Os três modelos correspondem aos três tipos de solicitação [: acesso](#request-types) **a** dados, **exportação** de dados e **dados marcados para ação adicional.**  Você pode exibir as configurações padrão de um modelo e fazer alterações durante o processo de criação da solicitação.
 
-1. No [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/), selecione **Solicitações de direitos do titular Priva** no painel de navegação esquerdo.
+##### <a name="selecting-the-relationship"></a>Selecionando a relação
+
+Cada modelo permite que você selecione o tipo de relação entre o titular dos dados e sua organização, que, por sua vez, determina as configurações padrão. Os pontos a seguir explicam como a relação escolhida afeta as configurações de pesquisa em modelos:
+
+- **Funcionário atual**: os resultados da pesquisa são personalizados para evitar emails ou Teams chats dos que o funcionário participou ou arquivos criados pelo funcionário. Essa configuração simplifica os resultados da pesquisa, pois os funcionários atuais geralmente têm acesso ao conteúdo que criaram ou à comunicação em que participaram.
+
+- **Ex-funcionário**: as configurações de pesquisa priorizam a caixa de correio do ex-funcionário (se disponível) e os itens criados pelo funcionário. Essas configurações visam retornar o conteúdo que os ex-funcionários geraram ou participaram.
+
+- **Cliente**, **funcionário** potencial e **outros: os** resultados da pesquisa para essas relações não incluirão o conteúdo criado pelo titular dos dados e incluirão apenas as versões mais recentes de itens do SharePoint (saiba mais nas opções de pesquisa [avançada).](#advanced-search-options)
+
+> [!TIP]
+> Na página principal **Solicitações de Direitos de** Entidade, você pode classificar sua lista de solicitações por relação na **coluna Relação com a organização** .
+
+#### <a name="steps-for-creating-a-request-from-a-template"></a>Etapas para criar uma solicitação de um modelo
+
+1. No centro [Microsoft Purview conformidade,](https://compliance.microsoft.com/) selecione **Solicitações de direitos do titular Priva** no painel de navegação esquerdo.
 
 2. No canto superior direito da tela, selecione **Criar uma solicitação**.
 
-3. Na página **Informações do titular dos** dados, insira o nome e sobrenome do titular dos dados e o endereço de email. Selecione **Adicionar residência** para escolher o país de residência do titular dos dados. Selecione a opção que identifica como o titular dos dados está relacionado à sua organização (como cliente ou funcionário atual) e selecione Avançar para  passar para a próxima etapa.
+3. Localize o tipo de solicitação que **você deseja** **criar – acesso** a **dados, exportação** de dados ou dados marcados para ação adicional – e selecione Introdução. Um painel de submenu será exibido.
 
-4. Na página **Locais** , decida onde você deseja pesquisar as informações do titular dos dados. Escolha um ou ambos os locais a seguir movendo o botão de alternância de status ao lado de cada opção para a **posição** Ativado:
+4. Em **Relação à organização**, selecione a opção que descreve a [relação](#selecting-the-relationship) entre o titular dos dados e sua organização. Se você selecionar **Outro**, um **campo de texto** Outra relação aparecerá no painel de submenu. Insira um termo que faça sentido para sua organização; por exemplo, "paciente" ou "aluno". 
+
+5. Se você quiser examinar todas as configurações padrão e fazer alterações em qualquer uma delas, selecione o **botão Exibir configurações** . As configurações aparecerão no painel de submenu. Para alterar as configurações, selecione **Editar configurações**, que o levará para o processo [guiado descrito](#custom-setup-guided-process-to-choose-all-settings) abaixo.
+
+6. Insira os detalhes do titular dos dados:
+    - Nome e sobrenome e endereço de email são campos obrigatórios. Para funcionários atuais e antigos, digitar o nome do titular dos dados no campo  Pesquisar um assunto de dados abrirá uma lista de usuários para escolher. Você também pode selecionar o link abaixo desse campo para inserir manualmente seu nome e email.
+    - É opcional inserir o país de residência do titular dos dados, a regulamentação de privacidade associada à solicitação e um período.
+   
+    > [!TIP]
+    >O período de tempo padrão pesquisará o conteúdo criado ou modificado nos últimos 12 meses. Você pode alterar essa configuração para selecionar todo o conteúdo criado a qualquer momento ou definir um período de tempo personalizado.
+
+7. Quando terminar, selecione **Criar**. Você será levado de volta para a página Solicitação de **Direitos da** Entidade com sua nova solicitação listada na parte superior da lista de solicitações.
+
+Por padrão, sua solicitação é nomeada com o nome do titular dos dados e o tipo de solicitação. Para editar o nome da solicitação, selecione a solicitação na lista para abrir sua página de detalhes e selecione o comando **Editar** na parte superior da tela. Você chegará ao assistente de criação de solicitação. Selecione **Avançar** até avançar para a página **Nome da** solicitação, na qual você pode editar o nome e adicionar uma descrição.
+
+Nenhum dos modelos pausa [automaticamente no estágio de estimativa de dados](subject-rights-requests-data-retrieval.md#pause-in-data-estimate). No entanto, você pode alterar essa e [](subject-rights-requests-create.md#defining-search-settings) outras configurações de pesquisa selecionando **Exibir Configurações** no painel de submenu do modelo.
+
+## <a name="custom-setup-guided-process-to-choose-all-settings"></a>Configuração personalizada: processo guiado para escolher todas as configurações
+
+A opção de solicitação personalizada é um processo guiado para criar uma política. Você começará escolhendo um modelo e percorrerá cada configuração para personalizar sua política. As instruções a seguir fornecem detalhes sobre as configurações básicas que se aplicam a cada um dos três tipos de política. Quando as configurações diferem por tipo de política, vinculamos a instruções específicas.
+
+Siga as etapas abaixo para criar uma solicitação:
+
+1. No [portal de conformidade do Microsoft Purview,](https://compliance.microsoft.com/) selecione **Solicitações de direitos do titular Priva** no painel de navegação esquerdo.
+
+2. No canto superior direito da tela, selecione **Criar uma solicitação**.
+
+3. Na opção **Personalizado**, selecione **Introdução**. Você será levado para o assistente de criação de solicitação.
+
+4. Na página **Informações do titular dos** dados, insira o nome e sobrenome do titular dos dados e o endereço de email. Selecione **Adicionar residência** para escolher o país de residência do titular dos dados. Selecione a opção que identifica como o titular dos dados está relacionado à sua organização. Se você escolher **Outro**, insira um termo para descrever a relação que faz sentido para sua organização; por exemplo, "paciente" ou "aluno". Selecione **Avançar** para ir para a próxima etapa.
+
+5. Na página **Locais** , decida onde você deseja pesquisar as informações do titular dos dados. Escolha um ou ambos os locais a seguir movendo o botão de alternância de status ao lado de cada opção para a **posição** Ativado:
 
    - **Exchange**: procure dados em caixas Exchange caixas de correio e em chats individuais ou Teams grupo. Você pode optar por pesquisar todas as Exchange em sua organização ou selecionar Escolher contas para  selecionar usuários individuais no painel de submenu Exchange **caixas** de correio.
 
    - **SharePoint**: procure dados em sites SharePoint, sites OneDrive for Business sites e Teams canais. Você pode optar por pesquisar todos SharePoint sites em sua organização ou selecionar Escolher **sites** para selecionar usuários individuais no painel de submenu SharePoint **sites**.
 
-> [!TIP]
-> Para obter ajuda com a identificação dos termos de pesquisa apropriados, consulte os seguintes tópicos:
-> - SharePoint sites e URLs: gerenciar sites no centro de administração do [SharePoint](/sharepoint/manage-sites-in-new-admin-center) fornece diretrizes sobre como classificar e filtrar sites e como pesquisar um site SharePoint site. Use isso para localizar URLs para inserir no campo de pesquisa **no painel SharePoint submenu de sites**.
-> - Teams chats e canais: [Get-Team](/powershell/module/teams/get-team) mostra como encontrar equipes no Microsoft Teams fornecendo informações ou propriedades específicas.
-> - OneDrive urls e sites: sobre [OneDrive URLs do OneDrive](/onedrive/list-onedrive-urls#about-onedrive-urls) fornece informações sobre o formato e as propriedades apropriados para a URL de OneDrive usuário. Use isso para ajudá-lo a identificar OneDrive sites em sua pesquisa.
+    > [!TIP]
+    > Para obter ajuda com a identificação dos termos de pesquisa apropriados, consulte os seguintes tópicos:
+    > - SharePoint sites e URLs: gerenciar sites no centro de administração do [SharePoint](/sharepoint/manage-sites-in-new-admin-center) fornece diretrizes sobre como classificar e filtrar sites e como pesquisar um site SharePoint site. Use isso para localizar URLs para inserir no campo de pesquisa **no painel SharePoint submenu de sites**.
+    > - Teams chats e canais: [Get-Team](/powershell/module/teams/get-team) mostra como encontrar equipes no Microsoft Teams fornecendo informações ou propriedades específicas.
+    > - OneDrive urls e sites: sobre [OneDrive URLs do OneDrive](/onedrive/list-onedrive-urls#about-onedrive-urls) fornece informações sobre o formato e as propriedades apropriados para a URL de OneDrive usuário. Use isso para ajudá-lo a identificar OneDrive sites em sua pesquisa.
 
-5. Na página **Definir configurações de pesquisa** , você pode optar por fazer alterações na pesquisa padrão escolhendo entre várias opções de pesquisa avançada. Aqui é onde você também pode optar por obter uma estimativa primeiro antes que os dados sejam retornados automaticamente. Se você escolher qualquer uma dessas opções, ao selecionar **Avançar** , prosseguirá para telas adicionais. Obtenha detalhes em [Definir configurações de pesquisa](#defining-search-settings) abaixo. Se você não quiser alterar a pesquisa, deixe todas as opções em branco e selecione **Avançar** para avançar para o próximo estágio.
+6. Na página **Definir configurações de pesquisa** , você pode optar por fazer alterações na pesquisa padrão escolhendo entre várias opções de pesquisa avançada. Aqui é onde você também pode optar por obter uma estimativa primeiro antes que os dados sejam retornados automaticamente. Se você escolher qualquer uma dessas opções, ao selecionar **Avançar** , prosseguirá para telas adicionais. Obtenha detalhes em [Definir configurações de pesquisa](#defining-search-settings) abaixo. Se você não quiser alterar a pesquisa, deixe todas as opções em branco e selecione **Avançar** para avançar para o próximo estágio.
 
-6. Na página **Selecionar o tipo de solicitação**, escolha o tipo de solicitação: **Acesso**, **Exportação** ou Lista marcada para **acompanhamento (**[consulte as descrições acima](#request-types)). Indique se a solicitação pertence a uma regulamentação de privacidade de dados. Examine ou faça alterações no prazo de conclusão, que assume como padrão duas semanas após a data de criação da solicitação. Em seguida, selecione **Avançar**.
+7. Na página **Selecionar o tipo de solicitação**, escolha o tipo de solicitação: **Acesso**, **Exportação** ou Lista marcada para **acompanhamento (**[consulte as descrições acima](#request-types)). Indique se a solicitação pertence a uma regulamentação de privacidade de dados. Examine ou faça alterações no prazo de conclusão, que assume como padrão duas semanas após a data de criação da solicitação. Em seguida, selecione **Avançar**.
 
-7. Na página **Confirmar ou editar** o nome desta solicitação, você pode manter ou editar o nome amigável fornecido para a solicitação e inserir uma descrição opcional. Em seguida, selecione **Avançar**.
+8. Na página **Confirmar ou editar** o nome desta solicitação, você pode manter ou editar o nome amigável fornecido para a solicitação e inserir uma descrição opcional. Em seguida, selecione **Avançar**.
 
-8. Na página **Examinar e** concluir, examine o resumo do que você inseriu durante as etapas anteriores. Qualquer campo pode ser editado selecionando o **link Editar** em cada seção. Quando terminar, selecione Criar **solicitação**.
+9. Na página **Examinar e** concluir, examine o resumo do que você inseriu durante as etapas anteriores. Qualquer campo pode ser editado selecionando o **link Editar** em cada seção. Quando terminar, selecione Criar **solicitação**.
 
 Você verá uma tela de confirmação depois que a solicitação for criada. Selecione **Concluído para** retornar à tela principal solicitações de direitos de entidade. A nova solicitação será listada na parte superior da lista de solicitações. Selecione-o na lista para começar a revisar e trabalhar nos estágios de progresso.
 
@@ -94,7 +146,7 @@ Calcularemos uma estimativa da quantidade de dados que ele espera encontrar com 
  
  - Se você não optar por parar na estimativa de dados, mas prevermos que sua pesquisa produzirá um grande volume de dados, você verá uma barra de mensagens na parte superior da solicitação com um link para editar sua pesquisa antes de prosseguir para a recuperação de **dados.**
 
-Visite [a estimativa e a recuperação de dados](subject-rights-requests-data-retrieval.md)para saber mais sobre esses estágios.
+Visite [a estimativa e a recuperação de dados](subject-rights-requests-data-retrieval.md) para saber mais sobre esses estágios.
 
 ## <a name="defining-search-settings"></a>Definindo configurações de pesquisa
 

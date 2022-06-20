@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como os dados são recuperados e como modificar as configurações de pesquisa Solicitações de direitos do titular Microsoft Priva.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046717"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166660"
 ---
 # <a name="data-estimate-and-retrieval"></a>Estimativa e recuperação de dados
 
@@ -36,7 +36,7 @@ Sua solicitação será movida automaticamente para o próximo estágio da recup
 
 Há dois motivos pelos quais uma solicitação será pausada no estágio **de estimativa de** dados:
 
-1. Ao criar uma solicitação pela primeira vez, você pode optar por obter uma estimativa primeiro. Consulte a etapa 5 [em Criar uma solicitação](subject-rights-requests-create.md#create-a-request) para obter detalhes.
+1. Ao criar uma solicitação, você pode optar por obter uma estimativa primeiro. Consulte a etapa 6 da [criação de uma solicitação personalizada](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) para obter detalhes.
 
 2. Se a estimativa for projetar para retornar um grande número de itens a serem examinados (mais de 10 mil itens), o fluxo de trabalho será pausado. Neste ponto, você pode visualizar os resultados e decidir se deseja [editar](subject-rights-requests-create.md#refining-your-search) a consulta de pesquisa ou continuar a recuperar os itens identificados.
 
@@ -59,7 +59,7 @@ Quando estiver pronto para continuar, selecione Recuperar dados no  canto superi
 
 ## <a name="retrieve-data"></a>Recuperar dados
 
-O estágio de recuperação de dados é quando todos os arquivos, emails, chats, imagens e outros itens de conteúdo que contêm os dados pessoais do titular dos dados são recuperados. Os itens são colocados juntos em um contêiner de armazenamento de blobs do Azure para revisão. A recuperação de dados pode levar alguns minutos ou significativamente mais, dependendo do volume de dados.
+O estágio de recuperação de dados é quando todos os arquivos, emails, chats, imagens e outros itens de conteúdo que contêm os dados pessoais do titular dos dados são recuperados. Os itens são colocados juntos em um contêiner Armazenamento de Blobs do Azure para revisão. A recuperação de dados pode levar alguns minutos ou significativamente mais, dependendo do volume de dados.
 
 Quando esse estágio for concluído, a solicitação passará automaticamente para o próximo estágio dos **dados de revisão**.
 

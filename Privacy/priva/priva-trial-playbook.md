@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a Microsoft Priva, confira as ações recomendadas a serem tomadas durante o período de avaliação e examine os links para documentação importante.
-ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046585"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166630"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Guia estratégico de avaliação: Microsoft Priva
 
@@ -69,7 +69,7 @@ Se você estiver pronto para começar a usar Microsoft Priva, siga estas etapas 
 
 Priva ajuda você a entender os dados que sua organização armazena automatizando a descoberta de ativos de dados pessoais e fornecendo visualizações de informações essenciais.
 
-Para começar, vá para a Priva do portal de conformidade do [Microsoft Purview](https://compliance.microsoft.com/) e exiba estas páginas:
+Para começar, vá para a Priva [do portal de conformidade do Microsoft Purview e](https://compliance.microsoft.com/) exiba estas páginas:
 
 1. [Visão](priva-data-profile.md#explore-the-overview-page) geral: fornece uma exibição agregada da sua postura de privacidade, incluindo o volume, a categoria, a localização e a movimentação de dados pessoais em seu ambiente Microsoft 365 ambiente. Além disso, você obtém visibilidade do status atual e das tendências dos riscos de privacidade associados decorrentes de dados pessoais sendo compartilhados em excesso, transferidos ou não utilizados.
 1. [Perfil de](priva-data-profile.md#explore-the-data-profile-page) dados: fornece um instantâneo dos dados pessoais que sua organização armazena no Microsoft 365, incluindo volume, tipo e local (armazenamento e geografia).
@@ -138,7 +138,7 @@ De acordo com determinados regulamentos de privacidade em todo o mundo, indivíd
 
 Os administradores de gerenciamento de direitos de entidade podem abrir novas solicitações de direitos de entidade por meio da página principal solicitações de direitos de entidade. Um assistente orientará você pelo processo de encontrar dados pessoais sobre um titular de dados e iniciar o processo de atendimento à solicitação.
 
-1. [Usar o assistente de solicitação de direitos de entidade](subject-rights-requests-create.md#create-a-request) – criar uma solicitação
+1. [Usar o assistente de solicitação de direitos de entidade](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) – criar uma solicitação
 1. [Definir configurações de pesquisa](subject-rights-requests-create.md#defining-search-settings)
 1. [Refinar configurações de pesquisa](subject-rights-requests-create.md#refining-your-search)
 

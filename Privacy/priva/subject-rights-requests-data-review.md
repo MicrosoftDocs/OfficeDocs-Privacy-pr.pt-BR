@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como examinar os dados de solicitação de direitos de entidade coletados Microsoft Priva e colaborar na conclusão da solicitação.
-ms.openlocfilehash: 0182be22efe224481625c121dc98ebe1d96a06ec
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 6120fdaa97cf79ac122f6992f9ce476fdc4c5da3
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046625"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166640"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examinar dados de uma solicitação de direitos de entidade
 
@@ -31,18 +31,46 @@ Depois que os dados forem coletados para uma solicitação de direitos de entida
 
 ## <a name="tasks-for-completing-the-data-review"></a>Tarefas para concluir a revisão de dados
 
-Neste estágio, seus colaboradores devem examinar as descobertas na **guia Dados coletados**. Um Teams canal será configurado automaticamente para facilitar a revisão de conteúdo por todos os stakeholders. Consulte [Colaboração para revisão de dados](#collaboration-for-data-review) abaixo para obter mais detalhes. As tarefas essenciais para a etapa de revisão de dados são descritas abaixo.
+O **estágio examinar dados** é quando os colaboradores examinam os itens de conteúdo na **guia Dados coletados**. Um Teams canal será configurado automaticamente para facilitar a revisão de conteúdo por todos os stakeholders. Consulte [Colaboração para revisão de dados](#collaboration-for-data-review) abaixo para obter mais detalhes. As tarefas essenciais para a etapa de revisão de dados são descritas abaixo.
+
+#### <a name="import-additional-files"></a>Importar arquivos adicionais
+
+Talvez você queira trazer itens de conteúdo adicionais para a solicitação de revisão de dados. Por exemplo, arquivos armazenados fora do ambiente de Microsoft 365 da sua organização ou outros itens que você acha que são relevantes, mas não estavam no escopo da pesquisa. Você pode importar arquivos para a guia **Dados coletados** de uma solicitação individual a ser revisada e trabalhada, juntamente com os outros itens. Os arquivos importados são adicionados ao mesmo Armazenamento de Blobs do Azure contêiner com os outros itens de conteúdo recuperados da pesquisa.
+
+Siga as etapas abaixo para importar arquivos:
+
+1. Na página de detalhes da solicitação, selecione **Importar arquivos** na barra de comandos na parte superior da página.
+
+2.  Uma **caixa Importar** arquivos será exibida na tela. Selecione **Escolher arquivos** e, na exibição do explorador de arquivos, escolha um ou mais arquivos a serem importados.
+
+3. Você será levado de volta para a caixa **Importar arquivos** , que lista os arquivos escolhidos. Você pode selecionar **Escolher arquivos** novamente para adicionar mais itens à lista. Para remover qualquer um dos arquivos, selecione **Limpar**, que remove todos os arquivos e escolha arquivos novamente.
+
+4. Quando todos os arquivos desejados forem listados na **caixa Importar arquivos** , selecione **Importar**. Para sair sem carregar, selecione **Cancelar importação**.
+
+Quando a importação começar, você será levado de volta para a guia Dados **coletados da** solicitação. Uma mensagem acima da guia indica que o upload está em andamento. Se houver um problema com o upload, a mensagem informará e fornecerá uma opção para tentar novamente.
+
+Você verá uma mensagem de confirmação acima da **guia Dados coletados** quando a importação for concluída.
+
+**Mais detalhes sobre como importar arquivos:**
+
+- O tamanho do arquivo individual não pode exceder 4 MB. Você verá uma mensagem de aviso na caixa **Importar arquivos** quando um arquivo for muito grande para carregar.
+
+- Pode levar até 20 minutos para que os arquivos importados estejam disponíveis na **guia Dados coletados** .
+
+- Se uma importação já estiver em andamento para um usuário, o mesmo usuário não poderá carregar arquivos adicionais até que o processo de upload anterior seja concluído. Vários usuários podem carregar arquivos para a mesma solicitação simultaneamente. No entanto, quanto mais carregamentos estiverem em andamento, mais tempo eles levarão para serem concluídos. As mensagens de status na solicitação informarão quando um upload for concluído e os arquivos estarão prontos para revisão.
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marcar itens como Incluir ou Excluir e adicionar anotações
 
-Examine a lista de itens identificados retornados pela pesquisa. Se você decidir que o item deve ser incluído como parte do relatório final de volta ao assunto dos dados, selecione  Incluir na barra de comandos na parte superior da lista de itens. Você também pode selecionar o botão **azul** Incluir na área de revisão de conteúdo à direita da lista de itens. Quando você seleciona **Incluir**, um painel de submenu é exibido com uma opção para adicionar anotações. Quando terminar, selecione Enviar **para** salvar o status de revisão do item como **Incluir**.
+Examine os itens listados na guia Dados coletados **da** solicitação.  Se você decidir que o item deve ser incluído como parte do relatório final de volta ao assunto dos dados, selecione  Incluir na barra de comandos na parte superior da lista de itens. Você também pode selecionar o botão **azul** Incluir na área de revisão de conteúdo à direita da lista de itens. Quando você seleciona **Incluir**, um painel de submenu é exibido com uma opção para adicionar anotações. Quando terminar, selecione Enviar **para** salvar o status de revisão do item como **Incluir**.
 
-Se o item não pertencer como parte da solicitação, selecione Excluir na  barra de comandos ou o botão Excluir  na área de revisão de conteúdo. Excluir um item significa que ele não será incluído nos relatórios [finais gerados para o titular dos dados](subject-rights-requests-reports.md).
+Se o item não pertencer como parte da solicitação, você poderá selecionar Excluir na  barra de comandos ou no botão Excluir  na área de revisão de conteúdo. Marcar um item explicitamente como **Exclude** geralmente é necessário para registros internos.
+
+Por padrão, somente os itens marcados como **Include** serão incluídos nos relatórios [finais gerados para o titular dos dados](subject-rights-requests-reports.md).
 
 > [!NOTE]
 > Se você marcar um item como **Exclude**, será necessário adicionar uma anotação como justificativa para o motivo pelo qual ele não pertence à solicitação de direitos do assunto. As anotações são para fins internos e não estão incluídas nos relatórios finais.
 
-Se o conteúdo parecer ser um falso positivo, selecione Não **uma** correspondência e, no painel de submenu, selecione **Confirmar**. Essa ação excluirá o arquivo dos relatórios finais e sinalizará o item como algo que não deveria ter sido detectado na pesquisa.
+Se o conteúdo parecer ser um falso positivo para a consulta de pesquisa, selecione Não  uma correspondência e, no painel submenu, selecione **Confirmar**. Essa ação sinalizará o item como algo que não deveria ter sido detectado na pesquisa.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -84,7 +112,7 @@ Para adicionar mais colaboradores, selecione Adicionar **colaborador, comece** a
 
 Para iniciar um Teams chat, qualquer colaborador pode selecionar **Chat** com colaboradores no canto superior direito da página de detalhes da solicitação. Essa ação abre Teams e coloca **você no canal** Geral do site de equipe da solicitação de direitos de assunto.
 
-Você pode alterar o comportamento padrão da criação de Teams canais para solicitações de direitos de entidade indo para Priva **Configurações** no canto superior direito da Solicitação de Direitos da Entidade. Selecione **Teams colaboração** e desmarque a caixa na página para desativar Teams recursos para todos os direitos de entidade.
+Você pode alterar o comportamento padrão da criação de Teams canais para solicitações de direitos de entidade indo para Priva **Configurações** no canto superior direito da Solicitação de Direitos da Entidade. Selecione **Teams colaboração e** desmarque a caixa na página para desativar Teams recursos para todas as solicitações de direitos de entidade.
 
 O **comando** Compartilhar no canto superior direito da página de detalhes de uma solicitação cria um link compartilhável que vai diretamente para a solicitação em Priva. Forneça esse link aos colaboradores para que eles possam acessar a solicitação à qual você os adicionou.
 
