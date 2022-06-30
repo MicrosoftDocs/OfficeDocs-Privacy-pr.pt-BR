@@ -17,12 +17,13 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre a Microsoft Priva, confira as ações recomendadas a serem tomadas durante o período de avaliação e examine os links para documentação importante.
-ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
-ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
+ms.custom: trial-playbook
+ms.openlocfilehash: 87ffb0f5d8d751d9039c6e46cef2e9a94c177057
+ms.sourcegitcommit: 24bb4f96bcc8664460faa8b2c3b934a36e416240
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66166630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66549250"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Guia estratégico de avaliação: Microsoft Priva
 
@@ -30,7 +31,7 @@ Bem-vindo ao Microsoft Priva guia estratégico de avaliação.
 
 Este guia estratégico ajudará você a fazer o máximo de sua avaliação gratuita de 90 dias, ajudando você a proteger seus dados pessoais e criar um local de trabalho resiliente à privacidade.
 
-Usando as recomendações da Microsoft, você aprenderá como o Priva pode ajudá-lo a identificar e proteger proativamente contra riscos de privacidade, como acumulação de dados, transferências de dados e compartilhamento excessivo de dados, ajudar sua organização a automatizar e gerenciar solicitações de assunto em escala e capacitar seus funcionários a tomar decisões inteligentes de tratamento de dados.
+Usando as recomendações da Microsoft, você aprenderá como Priva pode ajudá-lo a identificar e proteger proativamente contra riscos de privacidade, como acumulação de dados, transferências de dados e compartilhamento excessivo de dados, ajudar sua organização a automatizar e gerenciar solicitações de assunto em escala e capacitar seus funcionários a tomar decisões inteligentes de tratamento de dados.
 
 ## <a name="getting-started"></a>Introdução
 
@@ -60,7 +61,7 @@ Se você estiver pronto para começar a usar Microsoft Priva, siga estas etapas 
 1. [Confirmar assinaturas e licenciamento](priva-setup.md#confirm-subscriptions-and-licensing)
 1. [Definir permissões de usuário e atribuir funções](priva-setup.md#set-user-permissions-and-assign-roles)
 1. Selecione "Iniciar avaliação" e o seguinte será feito para você:
-    - Priva licenças de avaliação estão habilitadas (isso acontece em tempo real)
+    - As licenças de avaliação priva estão habilitadas (isso acontece em tempo real)
     - Os insights de privacidade são gerados (isso leva 24 horas)
 
 ![Captura de tela da tela de boas-vindas.](../media/priva-insights.png)
@@ -69,14 +70,14 @@ Se você estiver pronto para começar a usar Microsoft Priva, siga estas etapas 
 
 Priva ajuda você a entender os dados que sua organização armazena automatizando a descoberta de ativos de dados pessoais e fornecendo visualizações de informações essenciais.
 
-Para começar, vá para a Priva [do portal de conformidade do Microsoft Purview e](https://compliance.microsoft.com/) exiba estas páginas:
+Para começar, vá para a seção Priva do [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com/) e exiba estas páginas:
 
-1. [Visão](priva-data-profile.md#explore-the-overview-page) geral: fornece uma exibição agregada da sua postura de privacidade, incluindo o volume, a categoria, a localização e a movimentação de dados pessoais em seu ambiente Microsoft 365 ambiente. Além disso, você obtém visibilidade do status atual e das tendências dos riscos de privacidade associados decorrentes de dados pessoais sendo compartilhados em excesso, transferidos ou não utilizados.
+1. [Visão](priva-data-profile.md#explore-the-overview-page) geral: fornece uma exibição agregada de sua postura de privacidade, incluindo o volume, a categoria, a localização e a movimentação de dados pessoais em seu ambiente do Microsoft 365. Além disso, você obtém visibilidade do status atual e das tendências dos riscos de privacidade associados decorrentes de dados pessoais sendo compartilhados em excesso, transferidos ou não utilizados.
 1. [Perfil de](priva-data-profile.md#explore-the-data-profile-page) dados: fornece um instantâneo dos dados pessoais que sua organização armazena no Microsoft 365, incluindo volume, tipo e local (armazenamento e geografia).
 
 ## <a name="learn-about-policies"></a>Saiba mais sobre políticas
 
-O Gerenciamento de Riscos de Privacidade oferece a capacidade de configurar políticas que identifiquem riscos de privacidade em seu ambiente Microsoft 365 e habilitem a correção fácil.
+O Gerenciamento de Riscos de Privacidade oferece a capacidade de configurar políticas que identifiquem riscos de privacidade em seu ambiente do Microsoft 365 e habilitem a correção fácil.
 
 1. [Saiba mais sobre os principais cenários de risco](risk-management.md#learn-about-key-risk-scenarios)
 1. [Limitar o sobreexposure de dados](risk-management.md#limit-data-overexposure)
@@ -144,15 +145,15 @@ Os administradores de gerenciamento de direitos de entidade podem abrir novas so
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Gerenciar a correspondência de dados para solicitações de direitos de entidade
 
-Com a correspondência de dados, as organizações podem Priva identificar titulares de dados com base nos valores de dados fornecidos exatos.
+Com a correspondência de dados, as organizações podem permitir que Priva identifique os titulares dos dados com base nos valores de dados fornecidos exatos.
 
 1. [Preparar-se para a importação de dados](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [Definir o esquema de dados pessoais](subject-rights-requests-data-match.md#define-the-personal-data-schema)
-1. [Upload dados pessoais](subject-rights-requests-data-match.md#upload-personal-data)
+1. [Carregar dados pessoais](subject-rights-requests-data-match.md#upload-personal-data)
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>Examinar dados e colaborar em solicitações de direitos de entidade
 
-Depois de criar uma solicitação de direitos de Priva, você usará suas entradas sobre o assunto para procurar por correspondentes no ambiente de Microsoft 365 da sua organização. Depois que esses dados forem compilados, você poderá examinar as descobertas, fazer escolhas sobre o que incluir e reabilitar as informações conforme necessário.
+Depois de criar uma solicitação de direitos de entidade, Priva usará suas entradas sobre seu assunto para procurar por correspondentes no ambiente do Microsoft 365 da sua organização. Depois que esses dados forem compilados, você poderá examinar as descobertas, fazer escolhas sobre o que incluir e reabilitar as informações conforme necessário.
 
 1. [Examinar detalhes da solicitação e monitorar o progresso](subject-rights-requests-workflow.md)
 1. [Exibir e editar consultas de pesquisa](subject-rights-requests-create.md#defining-search-settings)  (opcional)
@@ -164,22 +165,22 @@ Depois de criar uma solicitação de direitos de Priva, você usará suas entrad
 Depois de concluir a revisão de dados para uma solicitação de direitos de entidade, você pode passar para solicitar o cumprimento.
 
 1. [Preparar relatórios finais para o titular dos dados](subject-rights-requests-reports.md)
-1. [Integrar e estender por meio do Microsoft API do Graph e Power Automate](subject-rights-requests-automate.md)
+1. [Integrar e estender por meio do Microsoft API do Graph e do Power Automate](subject-rights-requests-automate.md)
 1. [Gerenciar retenção de dados](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="extend-with-power-automate"></a>Estender com Power Automate
+## <a name="extend-with-power-automate"></a>Estender com o Power Automate
 
-Habilite Power Automate fluxos para Priva automatizar tarefas importantes para casos e usuários, como criar tíquetes no ServiceNow ou adicionar lembretes de calendário sobre datas de conclusão.
+Habilite os fluxos do Power Automate para Priva para automatizar tarefas importantes para casos e usuários, como criar tíquetes no ServiceNow ou adicionar lembretes de calendário sobre datas de conclusão.
 
-1. [Criar um novo fluxo Power Automate de um modelo](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
-1. [Compartilhar um Power Automate fluxo](subject-rights-requests-automate.md#share-a-power-automate-flow)
-1. [Editar ou excluir Power Automate fluxo](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
+1. [Criar um novo fluxo do Power Automate com base em um modelo](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
+1. [Compartilhar um fluxo do Power Automate](subject-rights-requests-automate.md#share-a-power-automate-flow)
+1. [Editar ou excluir o fluxo do Power Automate](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 **Microsoft Docs**: obtenha informações detalhadas sobre como o Microsoft Priva funciona e como implementá-lo melhor para sua organização. [Visite o Docs](priva-overview.md).
 
-**Por Microsoft Priva**: saiba mais sobre Priva recursos neste [vídeo](https://www.youtube.com/watch?v=6OLky1biPIQ).
+**Por Microsoft Priva**: Saiba mais sobre as funcionalidades de Priva neste [vídeo](https://www.youtube.com/watch?v=6OLky1biPIQ).
 
 **Saiba mais sobre Microsoft Priva**: blogs, planos, preços [aqui](https://aka.ms/privacymgmt/web).
 
